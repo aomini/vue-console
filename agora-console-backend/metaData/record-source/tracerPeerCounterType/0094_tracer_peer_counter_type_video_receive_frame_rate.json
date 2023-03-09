@@ -1,0 +1,9 @@
+{
+  "id": "0094",
+  "name": "video_receive_render_in_frame_rate",
+  "counter_id": 94,
+  "theme": "purple",
+  "color": "#8677a7",
+  "unit_type": "unit_type_fps",
+  "description_en": "Video Receive Frame Rate"
+}

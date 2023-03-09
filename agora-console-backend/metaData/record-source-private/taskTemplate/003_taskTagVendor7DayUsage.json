@@ -1,0 +1,10 @@
+{
+    "id": "3",
+    "name": "taskTagVendor7DayUsage",
+    "mode": "in_process",
+    "main": "tasks/tagUsage/taskTagVendor7DayUsage",
+    "cron": "1 16 * * *",
+    "triggerAfter": "",
+    "statusReportInterval": 1000,
+    "manual": true
+}

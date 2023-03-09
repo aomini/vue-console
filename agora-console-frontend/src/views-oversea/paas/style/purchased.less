@@ -1,0 +1,73 @@
+@import '../../../console-ui/assets/css/global.css';
+.content,
+.my-product {
+  height: 100%;
+}
+.empty-tip {
+  font-size: 16px;
+  color: #333333;
+  font-weight: 500;
+}
+.purchase-line {
+  margin-bottom: 20px;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-box {
+  width: 260px;
+  height: 200px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 2px;
+  border: 1px solid rgba(233, 233, 233, 1);
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.product {
+  padding: 20px;
+  .count {
+    color: #333333;
+    font-size: 14px;
+  }
+  .learn-more {
+    width: 100%;
+    color: #3ab7f8;
+    cursor: pointer;
+    margin-top: 13px;
+  }
+  .desc {
+    display: flex;
+    margin-bottom: 13px;
+    height: 80px;
+    .logo {
+      margin-right: 10px;
+      width: 80px;
+      height: 80px;
+      border-radius: 3px;
+      img {
+        width: 80px;
+        height: 80px;
+      }
+    }
+    .right {
+      width: 130px;
+    }
+    .service-name {
+      color: #333333;
+      font-size: 14px;
+      margin-bottom: 9px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    .description {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 12px;
+    }
+  }
+}

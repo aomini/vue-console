@@ -1,0 +1,9 @@
+{
+    "id"        : "7001",
+    "name"      : "unit_type_fps",
+    "plural"    : "fps",
+    "base_type" : "unit_type_fps",
+    "description": "Frame Per Second",
+    "description_zh": "帧每秒",
+    "base_times": 1
+}

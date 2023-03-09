@@ -1,0 +1,9 @@
+{
+    "id": 1011,
+    "name": "videoUsageOver10000ThisMonth",
+    "description": "Video Usage Over 10000 Minutes this Month",
+    "manual": 0,
+    "color": "default",
+    "popular": true,
+    "status": 1
+}

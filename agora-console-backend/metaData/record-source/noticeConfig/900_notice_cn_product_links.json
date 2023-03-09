@@ -1,0 +1,56 @@
+{
+    "id"             : "900",
+    "name"           : "notice_cn_product_links",
+    "description_en" : "CN Product Links",
+    "description_zh" : "中文产品链接",
+    "url_www"        : "http://www.agora.io/cn/news/downloads",
+    "url_json"       : "https://agora-website-public.oss-cn-hangzhou.aliyuncs.com/product_links/notice_cn_product_links.json",
+    "title_enabled"  : true,
+    "content_enabled": true,
+    "store_type"     : "oss",
+    "oss_region"     : "oss-cn-hangzhou",
+    "oss_bucket"     : "agora-website-public",
+    "oss_prefix_json": "product_links/notice_cn_product_links.json",
+    "allowed_keys"   : [
+        "sdk_ios_voice"       , "sdk_ios_video"       , "sdk_ios_broadcasting", "sdk_ios_amg", 
+        "sdk_android_voice"   , "sdk_android_video"   , "sdk_android_broadcasting", "sdk_android_amg",
+        "sdk_windows_voice"   , "sdk_windows_video"   , "sdk_windows_broadcasting",
+        "sdk_web_plugin_voice", "sdk_web_plugin_video", "sdk_web_plugin_broadcasting",
+        "sdk_web_voice"       , "sdk_web_video"       , "sdk_web_broadcasting",
+        "sdk_macos_voice"     , "sdk_macos_video"     , "sdk_macos_broadcasting",
+        "sdk_cocos2d(ios)_amg", "sdk_cocos2d(android)_amg",
+        "sdk_unity3d(ios)_amg", "sdk_unity3d(android)_amg",
+        "sdk_unity3d(ios)_amg_video", "sdk_unity3d(android)_amg_video",
+
+
+        "docs_ios_voice"       , "docs_ios_video"       , "docs_ios_broadcasting", "docs_ios_amg",
+        "docs_android_voice"   , "docs_android_video"   , "docs_android_broadcasting", "docs_android_amg",
+        "docs_windows_voice"   , "docs_windows_video"   , "docs_windows_broadcasting",
+        "docs_web_plugin_voice", "docs_web_plugin_video", "docs_web_plugin_broadcasting",
+        "docs_web_voice"       , "docs_web_video"       , "docs_web_broadcasting",
+        "docs_macos_voice"     , "docs_macos_video"     , "docs_macos_broadcasting",
+        "docs_cocos2d(ios)_amg", "docs_cocos2d(android)_amg",
+        "docs_unity3d(ios)_amg", "docs_unity3d(android)_amg",
+        "docs_unity3d(ios)_amg_video", "docs_unity3d(android)_amg_video",
+
+        "apps_ios_voice"       , "apps_ios_video"       , "apps_ios_broadcasting",
+        "apps_android_voice"   , "apps_android_video"   , "apps_android_broadcasting",
+        "apps_windows_voice"   , "apps_windows_video"   , "apps_windows_broadcasting",
+        "apps_web_plugin_voice", "apps_web_plugin_video", "apps_web_plugin_broadcasting",
+        "apps_web_voice"       , "apps_web_video"       , "apps_web_broadcasting",
+        "apps_macos_voice"     , "apps_macos_video"     , "apps_macos_broadcasting",
+
+        "course_ios_voice"       , "course_ios_video"       , "course_ios_broadcasting",
+        "course_android_voice"   , "course_android_video"   , "course_android_broadcasting",
+        "course_windows_voice"   , "course_windows_video"   , "course_windows_broadcasting",
+        "course_web_plugin_voice", "course_web_plugin_video", "course_web_plugin_broadcasting",
+        "course_web_voice"       , "course_web_video"       , "course_web_broadcasting",
+        "course_macos_voice"     , "course_macos_video"     , "course_macos_broadcasting",
+
+        "product_ars",
+        "product_whiteboard",
+        "product_image_enhancement",
+        "product_signaling",
+        "product_gaming_sdk"
+    ]
+}

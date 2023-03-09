@@ -1,0 +1,11 @@
+{
+  "id": "9017",
+  "name": "p2s_video_lost5000",
+  "counter_id": 9017,
+  "theme": "yellow",
+  "color": "#fc0",
+  "unit_type": "unit_type_percent",
+  "voqa_datatype": "p2sv",
+  "voqa_mertics_id": "lost_ratio3",
+  "description_en": "Video Package Access Lost 5000ms to Server(p2sv/lost3)"
+}

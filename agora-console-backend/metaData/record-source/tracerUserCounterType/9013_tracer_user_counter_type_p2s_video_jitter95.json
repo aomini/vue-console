@@ -1,0 +1,11 @@
+{
+  "id": "9013",
+  "name": "p2s_video_jitter95",
+  "counter_id": 9013,
+  "theme": "green",
+  "color": "#1abc9c",
+  "unit_type": "unit_type_percent",
+  "voqa_datatype": "p2sv",
+  "voqa_mertics_id": "jitter95",
+  "description_en": "Video Package Access Jitter 95 to Server(p2sv/jitter95)"
+}

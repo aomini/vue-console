@@ -1,0 +1,11 @@
+{
+    "id": "1",
+    "name": "usage_service_production",
+    "type": "thrift",
+    "thrift_path_service": "thrift/billing/gen-nodejs/UsageService",
+    "thrift_path_ttype": "thrift/billing/gen-nodejs/billing_usage_types",
+    "thrift_host": "58.211.21.57",
+    "thrift_port": "19090",
+    "thrift_transport": "TFramedTransport",
+    "thrift_protocol": "TCompactProtocol"
+}

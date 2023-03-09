@@ -1,0 +1,9 @@
+{
+    "id"            : "12",
+    "name"          : "event_page_visited",
+    "description_en": "Page Is Visited",
+    "description_zh": "指定页面被访问",
+    "payload_fields": ["url", "ip", "email"],
+    "payload_validator": {
+    }
+}

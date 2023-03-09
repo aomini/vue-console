@@ -1,0 +1,11 @@
+{
+  "id": "9003",
+  "name": "p2s_audio_jitter95",
+  "counter_id": 9003,
+  "theme": "aero",
+  "color": "#9cc2cb",
+  "unit_type": "unit_type_percent",
+  "voqa_datatype": "p2s",
+  "voqa_mertics_id": "jitter95",
+  "description_en": "Audio Package Access Jitter 95 to Server(p2s/jitter95)"
+}

@@ -1,0 +1,9 @@
+{
+    "id"          : "5143",
+    "name"        : "cdnPlaybackSARPercentile99Bandwidth",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "CDN Playback Bandwidth (SAR Percentile 99)",
+    "description_zh": "CDN回放带宽（港澳99峰值）",
+    "children"    : []
+}

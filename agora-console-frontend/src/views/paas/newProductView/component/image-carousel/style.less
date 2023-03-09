@@ -1,0 +1,81 @@
+//.el-carousel__item h3 {
+//  color: #475669;
+//  font-size: 14px;
+//  opacity: 0.75;
+//  line-height: 200px;
+//  margin: 0;
+//}
+//
+//.el-carousel__item:nth-child(2n) {
+//  background-color: red;
+//}
+//
+//.el-carousel__item:nth-child(2n+1) {
+//  background-color: black;
+//}
+
+.carousel-title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 13px;
+  margin-left: 149px;
+  margin-bottom: 42px;
+}
+
+.new-introduce {
+  .carousel-dialog {
+    .el-dialog__header {
+      background: none;
+    }
+    img {
+      width: 100%;
+    }
+    @media (max-width: 1480px) {
+      width: 760px!important;
+    }
+  }
+  .el-carousel__container {
+    height: 0;
+    padding-bottom: 45%;
+    @media (max-width: 1480px) {
+      height: 320px!important;
+    }
+  }
+  .el-carousel__item--card.is-active {
+    width: 80%;
+    margin-left: -15%;
+  }
+  .el-carousel__indicators--outside {
+    display: none;
+  }
+  .el-carousel__arrow--left {
+    display: unset!important;
+    i {
+      font-weight: 900;
+    }
+  }
+  .el-carousel__arrow--right {
+    display: unset!important;
+    i {
+      font-weight: 900;
+    }
+  }
+  .el-carousel__arrow {
+    background: #fff;
+    box-shadow: 2px 1px 10px rgb(0 0 0 / 20%);
+    i {
+      color: #000000;
+    }
+    &:hover {
+      background: #fff;
+      i {
+        color: var(--colorPrimary);
+      }
+    }
+  }
+  .carousel-img {
+    height: 100%;
+    background-size: cover;
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "id"          : "1001",
+    "name"        : "audioDuration",
+    "aggregation" : "SUM",
+    "unit_group"  : "duration",
+    "unit_type"   : "second",
+    "description" : "Audio Duration",
+    "description_zh": "音频时长",
+    "children"    : [1002, 1003]
+}

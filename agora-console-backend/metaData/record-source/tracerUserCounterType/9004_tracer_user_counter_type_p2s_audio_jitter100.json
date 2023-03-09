@@ -1,0 +1,11 @@
+{
+  "id": "9004",
+  "name": "p2s_audio_jitter100",
+  "counter_id": 9004,
+  "theme": "green",
+  "color": "#1abc9c",
+  "unit_type": "unit_type_percent",
+  "voqa_datatype": "p2s",
+  "voqa_mertics_id": "jitter100",
+  "description_en": "Audio Package Access Jitter 100 to Server(p2s/jitter100)"
+}

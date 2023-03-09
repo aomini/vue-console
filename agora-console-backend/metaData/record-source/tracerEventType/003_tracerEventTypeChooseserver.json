@@ -1,0 +1,6 @@
+{
+  "id": "3",
+  "name": "tracer_event_type_chooseserver",
+  "mapping": "vosdk.vocs",
+  "event_meta_type": "tracer_event_metatype_chooseserver"
+}

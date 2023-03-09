@@ -1,0 +1,9 @@
+{
+    "id"        : "2001",
+    "name"      : "MB",
+    "plural"    : "MB",
+    "base_type" : "MB",
+    "description": "MB",
+    "description_zh": "兆字节",
+    "base_times": 1
+}

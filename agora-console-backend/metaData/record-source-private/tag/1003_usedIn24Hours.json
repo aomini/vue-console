@@ -1,0 +1,9 @@
+{
+    "id": 1003,
+    "name": "usedIn24Hours",
+    "description": "Used In 24 Hours",
+    "manual": 0,
+    "color": "default",
+    "popular": true,
+    "status": 1
+}

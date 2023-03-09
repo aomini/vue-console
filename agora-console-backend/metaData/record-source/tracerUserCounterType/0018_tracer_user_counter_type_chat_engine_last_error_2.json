@@ -1,0 +1,9 @@
+{
+  "id": "18",
+  "name": "chat_engine_last_error_2",
+  "counter_id": 18,
+  "theme": "green",
+  "color": "#1abc9c",
+  "unit_type": "unit_type_enum",
+  "description_en": "Chat Engine Last Error 2"
+}

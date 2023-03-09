@@ -1,0 +1,244 @@
+{
+    "id"             : "905",
+    "name"           : "notice_en_staging_demo_links",
+    "description_en" : "[Staging]EN Demo Links",
+    "description_zh" : "[测试]英文Demo下载",
+    "url_www"        : "http://www.agora.io/en/news/downloads",
+    "url_json"       : "https://agora-website-public.oss-cn-hangzhou.aliyuncs.com/product_links/notice_en_staging_demo_links.json",
+    "title_enabled"  : true,
+    "content_enabled": true,
+    "store_type"     : "oss",
+    "oss_region"     : "oss-cn-hangzhou",
+    "oss_bucket"     : "agora-website-public",
+    "oss_prefix_json": "product_links/notice_en_staging_demo_links.json",
+    "allowed_keys"   : [
+        "demo_group.0.title",
+        "demo_group.0.subtitle",
+
+        "demo_group.0.demos.0.platform",
+        "demo_group.0.demos.0.language",
+        "demo_group.0.demos.0.link",
+
+        "demo_group.0.demos.1.platform",
+        "demo_group.0.demos.1.language",
+        "demo_group.0.demos.1.link",
+
+        "demo_group.0.demos.2.platform",
+        "demo_group.0.demos.2.language",
+        "demo_group.0.demos.2.link",
+
+        "demo_group.0.demos.3.platform",
+        "demo_group.0.demos.3.language",
+        "demo_group.0.demos.3.link",
+
+        "demo_group.0.demos.4.platform",
+        "demo_group.0.demos.4.language",
+        "demo_group.0.demos.4.link",
+
+        "demo_group.0.demos.5.platform",
+        "demo_group.0.demos.5.language",
+        "demo_group.0.demos.5.link",
+
+        "demo_group.0.demos.6.platform",
+        "demo_group.0.demos.6.language",
+        "demo_group.0.demos.6.link",
+
+        "demo_group.0.demos.7.platform",
+        "demo_group.0.demos.7.language",
+        "demo_group.0.demos.7.link",
+
+
+        "demo_group.1.title",
+        "demo_group.1.subtitle",
+
+        "demo_group.1.demos.0.platform",
+        "demo_group.1.demos.0.language",
+        "demo_group.1.demos.0.link",
+
+        "demo_group.1.demos.1.platform",
+        "demo_group.1.demos.1.language",
+        "demo_group.1.demos.1.link",
+
+        "demo_group.2.title",
+        "demo_group.2.subtitle",
+
+        "demo_group.2.demos.0.platform",
+        "demo_group.2.demos.0.language",
+        "demo_group.2.demos.0.link",
+
+        "demo_group.2.demos.1.platform",
+        "demo_group.2.demos.1.language",
+        "demo_group.2.demos.1.link",
+
+        "demo_group.2.demos.2.platform",
+        "demo_group.2.demos.2.language",
+        "demo_group.2.demos.2.link",
+
+        "demo_group.2.demos.3.platform",
+        "demo_group.2.demos.3.language",
+        "demo_group.2.demos.3.link",
+
+        "demo_group.2.demos.4.platform",
+        "demo_group.2.demos.4.language",
+        "demo_group.2.demos.4.link",
+
+        "demo_group.3.title",
+        "demo_group.3.subtitle",
+
+        "demo_group.3.demos.0.platform",
+        "demo_group.3.demos.0.language",
+        "demo_group.3.demos.0.link",
+
+        "demo_group.3.demos.1.platform",
+        "demo_group.3.demos.1.language",
+        "demo_group.3.demos.1.link",
+
+
+        "demo_group.4.title",
+        "demo_group.4.subtitle",
+
+        "demo_group.4.demos.0.platform",
+        "demo_group.4.demos.0.language",
+        "demo_group.4.demos.0.link",
+
+        "demo_group.4.demos.1.platform",
+        "demo_group.4.demos.1.language",
+        "demo_group.4.demos.1.link",
+
+        "demo_group.4.demos.2.platform",
+        "demo_group.4.demos.2.language",
+        "demo_group.4.demos.2.link",
+
+        "demo_group.4.demos.3.platform",
+        "demo_group.4.demos.3.language",
+        "demo_group.4.demos.3.link",
+
+        "demo_group.4.demos.4.platform",
+        "demo_group.4.demos.4.language",
+        "demo_group.4.demos.4.link",
+
+        "demo_group.4.demos.5.platform",
+        "demo_group.4.demos.5.language",
+        "demo_group.4.demos.5.link",
+
+        "demo_group.5.title",
+        "demo_group.5.subtitle",
+
+        "demo_group.5.demos.0.platform",
+        "demo_group.5.demos.0.language",
+        "demo_group.5.demos.0.link",
+
+        "demo_group.5.demos.1.platform",
+        "demo_group.5.demos.1.language",
+        "demo_group.5.demos.1.link",
+
+        "demo_group.6.title",
+        "demo_group.6.subtitle",
+
+        "demo_group.6.demos.0.platform",
+        "demo_group.6.demos.0.language",
+        "demo_group.6.demos.0.link",
+
+        "demo_group.6.demos.1.platform",
+        "demo_group.6.demos.1.language",
+        "demo_group.6.demos.1.link",
+
+        "demo_group.7.title",
+        "demo_group.7.subtitle",
+
+        "demo_group.7.demos.0.platform",
+        "demo_group.7.demos.0.language",
+        "demo_group.7.demos.0.link",
+
+        "demo_group.7.demos.1.platform",
+        "demo_group.7.demos.1.language",
+        "demo_group.7.demos.1.link",
+
+        "demo_group.8.title",
+        "demo_group.8.subtitle",
+
+        "demo_group.8.demos.0.platform",
+        "demo_group.8.demos.0.language",
+        "demo_group.8.demos.0.link",
+
+        "demo_group.8.demos.1.platform",
+        "demo_group.8.demos.1.language",
+        "demo_group.8.demos.1.link",
+
+        "demo_group.8.demos.2.platform",
+        "demo_group.8.demos.2.language",
+        "demo_group.8.demos.2.link",
+
+        "demo_group.8.demos.3.platform",
+        "demo_group.8.demos.3.language",
+        "demo_group.8.demos.3.link",
+
+        "demo_group.8.demos.4.platform",
+        "demo_group.8.demos.4.language",
+        "demo_group.8.demos.4.link",
+
+        "demo_group.9.title",
+        "demo_group.9.subtitle",
+
+        "demo_group.9.demos.0.platform",
+        "demo_group.9.demos.0.language",
+        "demo_group.9.demos.0.link",
+
+        "demo_group.9.demos.1.platform",
+        "demo_group.9.demos.1.language",
+        "demo_group.9.demos.1.link",
+
+        "demo_group.9.demos.2.platform",
+        "demo_group.9.demos.2.language",
+        "demo_group.9.demos.2.link",
+
+        "demo_group.10.title",
+        "demo_group.10.subtitle",
+
+        "demo_group.10.demos.0.platform",
+        "demo_group.10.demos.0.language",
+        "demo_group.10.demos.0.link",
+
+        "demo_group.11.title",
+        "demo_group.11.subtitle",
+
+        "demo_group.11.demos.0.platform",
+        "demo_group.11.demos.0.language",
+        "demo_group.11.demos.0.link",
+
+        "demo_group.11.demos.1.platform",
+        "demo_group.11.demos.1.language",
+        "demo_group.11.demos.1.link",
+
+        "demo_group.11.demos.2.platform",
+        "demo_group.11.demos.2.language",
+        "demo_group.11.demos.2.link",
+
+        "demo_group.11.demos.3.platform",
+        "demo_group.11.demos.3.language",
+        "demo_group.11.demos.3.link",
+
+        "demo_group.11.demos.4.platform",
+        "demo_group.11.demos.4.language",
+        "demo_group.11.demos.4.link",
+
+        "demo_group.11.demos.5.platform",
+        "demo_group.11.demos.5.language",
+        "demo_group.11.demos.5.link",
+
+        "demo_group.11.demos.6.platform",
+        "demo_group.11.demos.6.language",
+        "demo_group.11.demos.6.link",
+
+        "demo_group.12.title",
+        "demo_group.12.subtitle",
+
+        "demo_group.12.demos.0.platform",
+        "demo_group.12.demos.0.language",
+        "demo_group.12.demos.0.link",
+
+        "demo_group.12.demos.1.platform",
+        "demo_group.12.demos.1.language",
+        "demo_group.12.demos.1.link"
+    ]
+}

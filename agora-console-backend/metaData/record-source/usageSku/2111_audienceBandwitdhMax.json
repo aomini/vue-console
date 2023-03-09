@@ -1,0 +1,10 @@
+{
+    "id"          : "2111",
+    "name"        : "audienceBandwitdhMax",
+    "aggregation" : "MAX",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "Audience Bandwitdh Max",
+    "description_zh": "观众带宽峰值",
+    "children"    : []
+}

@@ -1,0 +1,21 @@
+{
+    "id": "1003",
+    "name": "livemonitor_channel_num",
+    "visible": 1,
+    "readable": 1,
+    "writable": 1,
+    "show_description": 1,
+    "title_en": "Channel",
+    "title_zh": "频道数",
+    "description_en": "",
+    "description_zh": "",
+    "unit_type_en": "",
+    "unit_type_zh": "个",
+    "color": "#4BC0C0",
+    "description_type": "info",
+    "ts_limit": 0,
+    "ts_start": 0,
+    "ts_end": 0,
+    "category": 3,
+    "parent": ""
+}

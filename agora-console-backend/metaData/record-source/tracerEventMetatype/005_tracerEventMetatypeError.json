@@ -1,0 +1,7 @@
+{
+  "id": "5",
+  "name": "tracer_event_metatype_error",
+  "description_en": "Error",
+  "classSuffix": "error",
+  "color": "#ff0000"
+}

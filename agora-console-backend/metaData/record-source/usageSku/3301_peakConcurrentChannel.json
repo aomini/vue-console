@@ -1,0 +1,10 @@
+{
+    "id"          : "3301",
+    "name"        : "peakConcurrentChannel",
+    "aggregation" : "MAX",
+    "unit_group"  : "counter",
+    "unit_type"   : "count",
+    "description" : "Peak Concurrent Channel",
+    "description_zh": "同时在线频道数",
+    "children"    : []
+}

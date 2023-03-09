@@ -1,0 +1,9 @@
+{
+  "id": "12",
+  "name": "audio_record_frequency",
+  "counter_id": 12,
+  "theme": "red",
+  "color": "#ec7063",
+  "unit_type": "unit_type_hz",
+  "description_en": "Audio Record Frequency"
+}

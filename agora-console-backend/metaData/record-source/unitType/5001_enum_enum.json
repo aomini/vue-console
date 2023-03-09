@@ -1,0 +1,9 @@
+{
+    "id"        : "5001",
+    "name"      : "unit_type_enum",
+    "plural"    : "enum",
+    "base_type" : "unit_type_enum",
+    "description": "ID",
+    "description_zh": "枚举ID",
+    "base_times": 1
+}

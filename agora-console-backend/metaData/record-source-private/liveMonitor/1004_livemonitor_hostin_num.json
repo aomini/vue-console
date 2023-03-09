@@ -1,0 +1,21 @@
+{
+    "id": "1004",
+    "name": "livemonitor_hostin_num",
+    "visible": 1,
+    "readable": 1,
+    "writable": 1,
+    "show_description": 1,
+    "title_en": "Host-in",
+    "title_zh": "连麦数",
+    "description_en": "",
+    "description_zh": "",
+    "unit_type_en": "",
+    "unit_type_zh": "个",
+    "color": "#F1BB37",
+    "description_type": "info",
+    "ts_limit": 0,
+    "ts_start": 0,
+    "ts_end": 0,
+    "category": 4,
+    "parent": ""
+}

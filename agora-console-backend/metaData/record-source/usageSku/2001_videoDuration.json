@@ -1,0 +1,10 @@
+{
+    "id"          : "2001",
+    "name"        : "videoDuration",
+    "aggregation" : "SUM",
+    "unit_group"  : "duration",
+    "unit_type"   : "second",
+    "description" : "Video Duration",
+    "description_zh": "视频时长",
+    "children"    : [2008, 2009, 2010]
+}

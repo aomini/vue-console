@@ -1,0 +1,6 @@
+{
+  "id": "2",
+  "name": "tracer_event_type_leave",
+  "mapping": "vosdk.quit",
+  "event_meta_type": "tracer_event_metatype_joinleave"
+}

@@ -1,0 +1,9 @@
+{
+    "id": 1202,
+    "name": "tile2Vendor",
+    "description": "Tile 2 Vendor",
+    "manual": 1,
+    "color": "success",
+    "popular": false,
+    "status": 1
+}

@@ -1,0 +1,11 @@
+{
+  "id": "9001",
+  "name": "p2s_audio_delay",
+  "counter_id": 9001,
+  "theme": "pink",
+  "color": "#ff66b5",
+  "unit_type": "millisecond",
+  "voqa_datatype": "p2s",
+  "voqa_mertics_id": "delay",
+  "description_en": "Audio Package Access Delay to Server(p2s/delay)"
+}

@@ -1,0 +1,6 @@
+{
+    "id"          : "104",
+    "name"        : "noEmailFromVendorId",
+    "entity_type" : "Vendor",
+    "description" : "No Email From Vendor ID"
+}

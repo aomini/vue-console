@@ -1,0 +1,11 @@
+{
+    "id"                : "1",
+    "name"              : "usageConfig",
+    "unit_type"         :
+    {
+        "duration"      : "minute",
+        "bandwidth"     : "kbps",
+        "volume"        : "MB",
+        "counter"       : "count"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "id"          : "2005",
+    "name"        : "sdVideoAudienceDuration",
+    "aggregation" : "SUM",
+    "unit_group"  : "duration",
+    "unit_type"   : "second",
+    "description" : "Video Duration (Audience SD)",
+    "description_zh": "视频时长（观众SD）",
+    "children"    : []
+}

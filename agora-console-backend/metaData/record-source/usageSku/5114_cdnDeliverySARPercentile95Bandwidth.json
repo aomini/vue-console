@@ -1,0 +1,9 @@
+{
+    "id"          : "5114",
+    "name"        : "cdnDeliverySARPercentile95Bandwidth",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "CDN Delivery Bandwidth (SAR Percentile 95)",
+    "description_zh": "CDN分发带宽（港澳95峰值）",
+    "children"    : []
+}

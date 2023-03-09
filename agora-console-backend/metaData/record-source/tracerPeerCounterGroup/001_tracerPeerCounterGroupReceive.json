@@ -1,0 +1,11 @@
+{
+  "id": "1",
+  "name": "tracer_peer_counter_group_receive",
+  "description_en": "Receive",
+  "counters": [
+    "video_receive_bitrate",
+    "video_receive_frame_rate",
+    "video_receive_resolution_width",
+    "video_receive_resolution_height"
+  ]
+}

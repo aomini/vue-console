@@ -1,0 +1,9 @@
+{
+    "id"        : "1",
+    "name"      : "second",
+    "plural"    : "seconds",
+    "description": "Second",
+    "description_zh": "秒",
+    "base_type" : "second",
+    "base_times": 1
+}

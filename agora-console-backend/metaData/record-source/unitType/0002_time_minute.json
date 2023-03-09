@@ -1,0 +1,9 @@
+{
+    "id"        : "2",
+    "name"      : "minute",
+    "plural"    : "minutes",
+    "description": "Minute",
+    "description_zh": "分钟",
+    "base_type" : "second",
+    "base_times": 60
+}

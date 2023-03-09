@@ -1,0 +1,9 @@
+{
+    "id"            : "11",
+    "name"          : "event_tracer_grs2_apicall_fail",
+    "description_en": "Tracer GRS2 Api Call Fail",
+    "description_zh": "Tracer GRS2 Api 访问失败",
+    "payload_fields": ["options", "error"],
+    "payload_validator": {
+    }
+}

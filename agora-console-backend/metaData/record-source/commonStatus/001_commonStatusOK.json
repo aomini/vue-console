@@ -1,0 +1,7 @@
+{
+    "id": 1,
+    "name": "commonStatusOK",
+    "description": "OK",
+    "value": "1",
+    "color": "success"
+}

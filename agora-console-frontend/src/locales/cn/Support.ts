@@ -1,0 +1,41 @@
+const SupportI18nCn = {
+  'My Support Plan': '我的支持计划',
+  'Optional Package': '可选择套餐',
+  'The Selected Package': '已选择套餐',
+  'Select This Plan': '选择这个计划',
+  'Contact Sales': '可通过以下方式联系销售',
+  intro1: '价格按月计算，协议按年计算，按年收费。',
+  intro2: '保证的响应时间是来自审核问题的工程师的第一时间响应。',
+  intro3: '关于开发人员预览版和测试版产品的问题保证响应时间。',
+  'Named SA Engineer Intro':
+    '指定的解决方案架构师工程师，是Agora技术的专家。他/她将熟悉您的用例、需求、实现，并将指导您完成开发过程。他/她将为您提供合理的咨询和支持，以确保您在最短的时间内得到适当的实施。',
+  'Named CS Engineer Intro':
+    '指定的客户成功工程师，他/她将熟悉你的实现，并将与你在生产相关的问题，可扩展性，和reginal coverages。他/她将帮助您在Agora的网络上进行应用程序的推出和适当的可伸缩性。',
+  'Code Review Intro': '参考Agora的最佳实践，对应用程序设计和工作流程进行1-2小时的个性化远程审查。',
+  'Live developer consultation and training Intro':
+    '1-2小时的个性化培训，向开发者介绍Agora的平台、功能、api和最佳实践。',
+  'Business Days Intro': '周一至周五，不包括国家假日。',
+  'Business Hours Intro': '办公时间为上午七时至下午七时(太平洋标准时间PST)。',
+  'Named SA Engineer': 'SA工程师: ',
+  'Named CS Engineer': 'CS工程师: ',
+  'Code Review': '代码评审: ',
+  'Live developer consultation and training': '现场开发人员咨询和培训: ',
+  'Business Days': '工作日: ',
+  'Business Hours': '营业时间: ',
+  'Effective From': '起止日期',
+  'Renew current package': '续费',
+  'NetWork Error': '网络错误',
+  Nothing: '默认套餐包含标准的工单支持和水晶球 - 通话调查。',
+  Free: '免费',
+  'You have no permission': '你没有权限',
+  'No Package': '抱歉，当前区域没有可用的支持套餐。如有需要，请联系您的销售获得更多咨询。',
+  'No Permission': '抱歉，你没有权限',
+  'Balance negative': '您的余额为负，支持套餐可能受限。请先充值或联系销售。',
+  'Can not renew many times': '不能续费多次',
+  month: '月',
+  'Enterprise Description': '您已享有所有特权，如欲更换套餐可通过以下方式联系销售',
+  hint: '提示',
+  'Customized Package': '定制套餐',
+}
+
+export default SupportI18nCn

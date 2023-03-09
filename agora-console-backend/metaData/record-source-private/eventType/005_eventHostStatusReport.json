@@ -1,0 +1,18 @@
+{
+    "id"            : "5",
+    "name"          : "host_status_report",
+    "description_en": "Host Status Report",
+    "description_zh": "主机状态报告",
+    "payload_fields": ["cpuUsage", "memoryUsage", "diskUsage", "inodeUsage"],
+    "payload_validator": {
+        "cpuUsage": {
+            "$exists": true
+        },
+        "memoryUsage": {
+            "$exists": true
+        },
+        "diskUsage": {
+            "$exists": true
+        }
+    }
+}

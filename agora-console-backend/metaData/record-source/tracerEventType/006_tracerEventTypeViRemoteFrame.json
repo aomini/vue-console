@@ -1,0 +1,6 @@
+{
+  "id": "6",
+  "name": "tracer_event_type_vi_remote_frame",
+  "mapping": "vosdk.viRemoteFrame",
+  "event_meta_type": "tracer_event_metatype_peer"
+}

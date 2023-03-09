@@ -1,0 +1,54 @@
+{
+    "id"                : "2",
+    "name"              : "liveMonitorGroup",
+    "groups": [
+        {
+            "name": "basic",
+            "title_en": "Basic Stastics",
+            "title_zh": "基本统计",
+            "description_en": "",
+            "description_zh": "以下为实时数据，可刷新页面更新",
+            "title_y_en": "Audience / Channel",
+            "title_y_zh": "人数/频道数",
+            "title_x_en": "Until UTC",
+            "title_x_zh": "截止 UTC",
+            "min": 0,
+            "max": null,
+            "suffix_y_en": "",
+            "suffix_y_zh": "",
+            "items": [1001, 1002, 1003, 1004, 1005]
+        },
+        {
+            "name": "audience",
+            "title_en": "Audience Side",
+            "title_zh": "观众端",
+            "description_en": "",
+            "description_zh": "以下为实时数据，可刷新页面更新",
+            "title_y_en": "",
+            "title_y_zh": "",
+            "title_x_en": "Until UTC",
+            "title_x_zh": "截止 UTC",
+            "min": 0,
+            "max": 100,
+            "suffix_y_en": "%",
+            "suffix_y_zh": "%",
+            "items": [1011, 1012, 1013, 1014]
+        },
+        {
+            "name": "host",
+            "title_en": "Host Side",
+            "title_zh": "主播端",
+            "description_en": "",
+            "description_zh": "以下为实时数据，可刷新页面更新",
+            "title_y_en": "",
+            "title_y_zh": "",
+            "title_x_en": "Until UTC",
+            "title_x_zh": "截止 UTC",
+            "min": 0,
+            "max": 100,
+            "suffix_y_en": "%",
+            "suffix_y_zh": "%",
+            "items": [1015, 1016, 1017]
+        }
+    ]
+}

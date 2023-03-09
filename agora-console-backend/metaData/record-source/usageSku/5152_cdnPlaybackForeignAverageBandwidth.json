@@ -1,0 +1,9 @@
+{
+    "id"          : "5152",
+    "name"        : "cdnPlaybackForeignAverageBandwidth",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "CDN Playback Bandwidth (Foreign Average)",
+    "description_zh": "CDN回放带宽（海外平均）",
+    "children"    : []
+}

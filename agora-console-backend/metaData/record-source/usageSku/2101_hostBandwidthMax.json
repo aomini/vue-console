@@ -1,0 +1,11 @@
+{
+    "id"          : "2101",
+    "name"        : "hostBandwidthMax",
+    "aggregation" : "MAX",
+    "valid_from"  : "2017-06-01",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "Host Bandwitdh Max",
+    "description_zh": "主播带宽最大值",
+    "children"    : []
+}

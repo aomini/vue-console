@@ -1,0 +1,7 @@
+{
+    "id": "2",
+    "name": "$gt",
+    "description_en": "Greater Than",
+    "description_zh": "大于",
+    "operant": 1
+}

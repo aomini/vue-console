@@ -1,0 +1,134 @@
+{
+    "id": "industry",
+    "name": "industry",
+    "data": [
+        {
+            "code": 1,
+            "name": "Customer Service"
+        },
+        {
+            "code": 2,
+            "name": "eCommerce"
+        },
+        {
+            "code": 3,
+            "name": "Education"
+        },
+        {
+            "code": 4,
+            "name": "Enterprise"
+        },
+        {
+            "code": 5,
+            "name": "Financial"
+        },
+        {
+            "code": 6,
+            "name": "Gaming"
+        },
+        {
+            "code": 7,
+            "name": "Hardware / IoT"
+        },
+        {
+            "code": 8,
+            "name": "Health"
+        },
+        {
+            "code": 9,
+            "name": "HR"
+        },
+        {
+            "code": 10,
+            "name": "Social"
+        },
+        {
+            "code": 11,
+            "name": "System Integration"
+        },
+        {
+            "code": 12,
+            "name": "Other"
+        },
+        {
+            "code": 13,
+            "name": "Live Broadcast / Media"
+        },
+        {
+            "code": 14,
+            "name": "Enterprise Collaboration"
+        },
+        {
+            "code": 15,
+            "name": "Domestic Services / O2O"
+        },
+        {
+            "code": 16,
+            "name": "Software Development Outsourcing"
+        },
+        {
+            "code": 17,
+            "name": "Freelance"
+        },
+        {
+            "code": 18,
+            "name": "Call Centre"
+        },
+        {
+            "code": 19,
+            "name": "VR/AR/AI"
+        },
+        {
+            "code": 20,
+            "name": "e-Sports"
+        },
+        {
+            "code": 21,
+            "name": "Government Service"
+        },
+        {
+            "code": 22,
+            "name": "Communication"
+        },
+        {
+            "code": 23,
+            "name": "Dating"
+        },
+        {
+            "code": 24,
+            "name": "Enterprise Training"
+        },
+        {
+            "code": 25,
+            "name": "Entertainment"
+        },
+        {
+            "code": 26,
+            "name": "Team Collab"
+        },
+        {
+            "code": 27,
+            "name": "Tutoring"
+        },
+        {
+            "code": 28,
+            "name": "Virtual Event"
+        },
+        {
+            "code": 29,
+            "name": "Enterprise Workflow"
+        },
+        {
+            "code": 30,
+            "name": "Retail"
+        },
+        {
+            "code": 31,
+            "name": "Embedded Devices"
+        },
+        {
+            "code": 32,
+            "name": "Sports and OTT"
+        }
+    ]
+}

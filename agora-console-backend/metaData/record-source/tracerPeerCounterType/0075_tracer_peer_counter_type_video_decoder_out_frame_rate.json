@@ -1,0 +1,9 @@
+{
+  "id": "0075",
+  "name": "video_decoder_out_frame_rate",
+  "counter_id": 75,
+  "theme": "pink",
+  "color": "#ff66b5",
+  "unit_type": "unit_type_fps",
+  "description_en": "Video Decoder Out Frame Rate"
+}

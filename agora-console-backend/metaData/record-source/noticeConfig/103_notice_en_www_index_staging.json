@@ -1,0 +1,15 @@
+{
+    "id"             : "103",
+    "name"           : "notice_en_www_index_staging",
+    "description_en" : "Notification on http://staging-www.agora.io/en/",
+    "description_zh" : "[测试]英文官网首页通知横幅",
+    "url_www"        : "http://staging-www.agora.io/en/",
+    "url_json"       : "https://agora-website-public.oss-cn-hangzhou.aliyuncs.com/notice/notice_en_www_index_staging.json",
+    "title_enabled"  : true,
+    "content_enabled": true,
+    "store_type"     : "oss",
+    "oss_region"     : "oss-cn-hangzhou",
+    "oss_bucket"     : "agora-website-public",
+    "oss_prefix_json": "notice/notice_en_www_index_staging.json",
+    "allowed_keys"   : ["latest"]
+}

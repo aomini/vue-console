@@ -1,0 +1,9 @@
+{
+  "id": "21",
+  "name": "audio_send_codec_type",
+  "counter_id": 21,
+  "theme": "grey",
+  "color": "#73716e",
+  "unit_type": "unit_type_enum",
+  "description_en": "Audio Send Codec Type"
+}

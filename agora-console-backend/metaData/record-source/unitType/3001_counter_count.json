@@ -1,0 +1,9 @@
+{
+    "id"        : "3001",
+    "name"      : "count",
+    "plural"    : "counts",
+    "base_type" : "count",
+    "description": "Count",
+    "description_zh": "次",
+    "base_times": 1
+}

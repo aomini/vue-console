@@ -1,0 +1,9 @@
+{
+  "id": "83",
+  "name": "video_high_send_bitrate",
+  "counter_id": 83,
+  "theme": "blue",
+  "color": "#3498db",
+  "unit_type": "unit_type_kbps",
+  "description_en": "Video High Send Bitrate"
+}

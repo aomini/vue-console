@@ -1,0 +1,9 @@
+{
+  "id": "0096",
+  "name": "video_receive_resolution_height",
+  "counter_id": 96,
+  "theme": "green",
+  "color": "#1abc9c",
+  "unit_type": "unit_type_px",
+  "description_en": "Video Receive Resolution Height"
+}

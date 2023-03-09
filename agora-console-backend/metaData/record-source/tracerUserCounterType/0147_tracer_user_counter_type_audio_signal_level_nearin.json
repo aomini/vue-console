@@ -1,0 +1,9 @@
+{
+  "id": "147",
+  "name": "audio_signal_level_nearin",
+  "counter_id": 147,
+  "theme": "yellow",
+  "color": "#fc0",
+  "unit_type": "count",
+  "description_en": "Audio Signal Level(nearin)"
+}

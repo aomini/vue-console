@@ -1,0 +1,9 @@
+{
+    "id"        : "4001",
+    "name"      : "unit_type_hz",
+    "plural"    : "hz",
+    "base_type" : "unit_type_hz",
+    "description": "Hz",
+    "description_zh": "赫兹",
+    "base_times": 1
+}

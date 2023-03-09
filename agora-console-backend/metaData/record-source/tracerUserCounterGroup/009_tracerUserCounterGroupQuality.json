@@ -1,0 +1,24 @@
+{
+  "id": "9",
+  "name": "tracer_user_counter_group_quality",
+  "description_en": "Quality",
+  "counters": [
+    "p2s_audio_delay",
+    "p2s_audio_jitter90",
+    "p2s_audio_jitter95",
+    "p2s_audio_jitter100",
+    "p2s_audio_lost400",
+    "p2s_audio_lost800",
+    "p2s_audio_lost1000",
+    "audio2s_delay",
+    "audio2s_jitter",
+    "audio2s_jitter90",
+    "audio2s_jitter95",
+    "audio2s_jitter100",
+    "audio2s_ka",
+    "audio2s_lost",
+    "audio2s_lost400",
+    "audio2s_lost800",
+    "audio2s_lost5000"
+  ]
+}

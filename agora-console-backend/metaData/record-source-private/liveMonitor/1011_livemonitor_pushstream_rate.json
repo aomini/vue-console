@@ -1,0 +1,21 @@
+{
+    "id": "1011",
+    "name": "livemonitor_pushstream_rate",
+    "visible": 1,
+    "readable": 1,
+    "writable": 1,
+    "show_description": 1,
+    "title_en": "CDN Push Success Rate",
+    "title_zh": "推流成功率",
+    "description_en": "Push success path/total push flow path",
+    "description_zh": "推流成功率 = 推流成功路数 / 总推流路数",
+    "unit_type_en": "%",
+    "unit_type_zh": "%",
+    "color": "#FF6383",
+    "description_type": "info",
+    "ts_limit": 0,
+    "ts_start": 0,
+    "ts_end": 0,
+    "category": 51,
+    "parent": ""
+}

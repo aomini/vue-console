@@ -1,0 +1,11 @@
+{
+    "id"          : "1003",
+    "name"        : "audienceAudioDuration",
+    "valid_from"  : "2017-06-01",
+    "aggregation" : "SUM",
+    "unit_group"  : "duration",
+    "unit_type"   : "second",
+    "description" : "Audio Duration(Audience)",
+    "description_zh": "音频时长（观众）",
+    "children"    : []
+}

@@ -1,0 +1,9 @@
+{
+    "id"        : "2002",
+    "name"      : "GB",
+    "plural"    : "GB",
+    "base_type" : "MB",
+    "description": "GB",
+    "description_zh": "千兆字节",
+    "base_times": 1024
+}

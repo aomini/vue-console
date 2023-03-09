@@ -1,0 +1,6 @@
+{
+  "id": "7",
+  "name": "tracer_event_type_vi_local_frame",
+  "mapping": "vosdk.viLocalFrame",
+  "event_meta_type": "tracer_event_metatype_video"
+}

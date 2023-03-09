@@ -1,0 +1,9 @@
+{
+  "id": "0092",
+  "name": "video_send_target_bitrate",
+  "counter_id": 92,
+  "theme": "orange",
+  "color": "#f70",
+  "unit_type": "unit_type_kbps",
+  "description_en": "Video Send Target Bitrate"
+}

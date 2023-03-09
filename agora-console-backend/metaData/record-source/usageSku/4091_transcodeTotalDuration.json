@@ -1,0 +1,10 @@
+{
+    "id"          : "4091",
+    "name"        : "transcodeTotalDuration",
+    "aggregation" : "SUM",
+    "unit_group"  : "duration",
+    "unit_type"   : "second",
+    "description" : "Transcode Duration (Total)",
+    "description_zh": "转码时长（总共）",
+    "children"    : [4001, 4002, 4003, 4004, 4005]
+}

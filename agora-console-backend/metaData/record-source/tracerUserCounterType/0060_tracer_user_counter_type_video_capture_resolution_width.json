@@ -1,0 +1,9 @@
+{
+  "id": "60",
+  "name": "video_capture_resolution_width",
+  "counter_id": 60,
+  "theme": "green",
+  "color": "#1abc9c",
+  "unit_type": "unit_type_px",
+  "description_en": "Video Capture Resolution Width"
+}

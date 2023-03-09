@@ -1,0 +1,8 @@
+{
+  "id": "6",
+  "name": "tracer_user_counter_group_recording",
+  "description_en": "Recording",
+  "counters": [
+    "audio_record_frequency"
+  ]
+}

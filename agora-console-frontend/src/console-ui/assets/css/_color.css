@@ -1,0 +1,37 @@
+:root {
+  /**
+    * 主题色
+  **/
+  --colorPrimary: #099dfd;
+  --colorPrimaryDark: #000e4b;
+  --colorPrimaryGrey: #e3e3ec;
+  --colorPrimaryIvory: #f9f9fc;
+  --colorPrimaryWhite: #ffffff;
+
+  /**
+    * 文字色
+  **/
+  --colorFontBlack: #191919;
+  --colorFontBlue: #23334e;
+  --colorFontGrey: #586376;
+  --colorFontGrey-1: #8a8a9a;
+  --colorFontGrey-2: #333333;
+  --colorFontRed: #f65858;
+  --colorFontOrange: #ff8227;
+  --colorFontGreen: #70cb44;
+
+  /**
+    * 背景色
+  **/
+  --colorBackgroundGrey: #f6f6fa;
+  --colorBackgroundGrey-1: #fafafd;
+
+  /**
+    * 边框色
+  **/
+  --colorBorderGrey: #d2d2e2;
+  --colorBorderGrey-1: #eeeeee;
+
+  /* 白色 */
+  --colorPure: #ffffff;
+}

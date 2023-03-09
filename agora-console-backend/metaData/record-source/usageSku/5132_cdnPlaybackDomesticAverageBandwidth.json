@@ -1,0 +1,9 @@
+{
+    "id"          : "5132",
+    "name"        : "cdnPlaybackDomesticAverageBandwidth",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "CDN Playback Bandwidth (Domestic Average)",
+    "description_zh": "CDN回放带宽（国内平均）",
+    "children"    : []
+}

@@ -1,0 +1,9 @@
+{
+    "id"          : "5202",
+    "name"        : "cdnStorageVolume",
+    "unit_group"  : "volume",
+    "unit_type"   : "MB",
+    "description" : "CDN Storage Volume",
+    "description_zh": "CDN存储容量",
+    "children"    : []
+}

@@ -1,0 +1,9 @@
+{
+    "id"        : "1001",
+    "name"      : "kbps",
+    "plural"    : "kbps",
+    "description": "Kbps",
+    "description_zh": "千比特每秒",
+    "base_type" : "kbps",
+    "base_times": 1
+}

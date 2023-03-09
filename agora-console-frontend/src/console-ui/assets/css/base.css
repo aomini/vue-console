@@ -1,0 +1,53 @@
+.color-primary {
+  color: var(--colorPrimary);
+}
+
+:root {
+  /**
+    * Border
+  */
+  --borderColorBase: var(--colorGrey-5);
+  --borderColorHover: var(--colorHover);
+  --borderColorActive: var(--colorActive);
+  --borderRadiusBase: 4px;
+  --borderRadiusSm: 0;
+
+  --borderColorWarning: var(--function-3);
+  --inputColorPlaceHolder: #ccc;
+
+  /**
+    * 字体
+    */
+  --fontFamily: 'AcuminPro-regular, helvetica neue, arial, PingFangSC, microsoft yahei';
+  --fontFamilySecondary: 'PingFangSC-Regular, PingFang SC';
+
+  /* size */
+  --fontSize12: 12px;
+  --fontSize13: 13px;
+  --fontSize14: 14px;
+  --fontSize16: 16px;
+  --fontSize18: 16px;
+  --fontSize20: 20px;
+  --fontSize24: 24px;
+  --fontSize28: 28px;
+
+  /**
+   * ConsoleButton
+   */
+  --buttonHeightSm: 30px;
+  --buttonHeightMd: 36px;
+  --buttonHeightLg: 40px;
+
+  --buttonPaddingSm: 0 20px;
+  --buttonPaddingMd: 0 20px;
+  --buttonPaddingLg: 0 30px;
+
+  /* base */
+  --textColor: var(--colorFontBlack);
+  --textColorDisabled: var(--colorPrimaryWhite);
+
+  /* 功能色 */
+  --colorSuccess: var(--colorFontGreen);
+  --colorDanger: var(--colorFontRed);
+  --backgroundColorDisabled: var(--colorPrimaryGrey);
+}

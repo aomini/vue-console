@@ -1,0 +1,21 @@
+{
+    "id": "1002",
+    "name": "livemonitor_audience_num",
+    "visible": 1,
+    "readable": 1,
+    "writable": 1,
+    "show_description": 1,
+    "title_en": "Audience",
+    "title_zh": "观众数",
+    "description_en": "",
+    "description_zh": "",
+    "unit_type_en": "",
+    "unit_type_zh": "人",
+    "color": "#FF6383",
+    "description_type": "info",
+    "ts_limit": 0,
+    "ts_start": 0,
+    "ts_end": 0,
+    "category": 2,
+    "parent": ""
+}

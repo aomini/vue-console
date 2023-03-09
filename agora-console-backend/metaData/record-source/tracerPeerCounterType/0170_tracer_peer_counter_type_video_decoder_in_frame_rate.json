@@ -1,0 +1,9 @@
+{
+  "id": "0170",
+  "name": "video_decoder_in_frame_rate",
+  "counter_id": 170,
+  "theme": "blue",
+  "color": "#3498db",
+  "unit_type": "unit_type_fps",
+  "description_en": "Video Decoder In Frame Rate"
+}

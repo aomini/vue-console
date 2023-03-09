@@ -1,0 +1,10 @@
+{
+    "id"          : "4303",
+    "name"        : "transcodeChannelSdVideoConcurrency",
+    "aggregation" : "MAX",
+    "unit_group"  : "counter",
+    "unit_type"   : "count",
+    "description" : "Hostin Transcode Channel Concurrency (Video SD)",
+    "description_zh": "连麦转码并发频道数（视频SD）",
+    "children"    : []
+}

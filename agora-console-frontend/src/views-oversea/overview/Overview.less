@@ -1,0 +1,137 @@
+.el-row {
+  margin-bottom: 20px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.overview-btn {
+  width: 150px;
+}
+
+.w-150 {
+  width: 150px;
+}
+
+.overview-content {
+  margin-top: 17px;
+}
+
+.overview-content {
+  // 卡片删除动画
+  .v-leave-active{
+    transition: all 0.3s ease;
+  }
+
+  .v-leave-to {
+    opacity: 0;
+  }
+
+  .v-move {
+    transition: all 0.3s ease;
+  }
+  .v-leave-active {
+    // position: absolute;
+    //&.card-list-item {
+    //  width: 183px;
+    //}
+  }
+}
+.layout-edit {
+  .v-move {
+    transition: all 0.3s ease;
+  }
+  .v-leave-active {
+    position: absolute;
+  }
+}
+.overview-card-1 {
+  margin-bottom: 20px;
+  .header-right:hover {
+    span, i {
+      color: #099DFD;
+    }
+  }
+}
+
+.draging {
+  height: 54px;
+  overflow: hidden;
+  .project-select {
+    display: none;
+  }
+  &.card-box {
+    padding-top: 16.5px;
+  }
+}
+
+.chosen-draging {
+  height: 54px;
+  overflow: hidden;
+  border: 1px solid #099dfd;
+  border-radius: 4px;
+  .card-box {
+    padding-top: 16.5px!important;
+  }
+}
+
+.draging-ghost {
+  border: none !important;
+  .card-box {
+    border: none;
+    box-shadow: none;
+    div {
+      display: none!important;
+    }
+  }
+  &.card-list-item {
+    border: none;
+    box-shadow: none;
+    background: #fafafd;
+    div {
+      display: none!important;
+    }
+    i {
+      display: none!important;
+    }
+  }
+}
+
+.overview-col {
+  width: 400px;
+}
+
+.overview-drag-group {
+  min-height: 500px;
+}
+
+.icon-move,
+.icon-delete {
+  cursor: pointer;
+}
+
+.welcome-word {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.overview-placeholder {
+  transform: translateY(50%);
+  text-align: center;
+  padding-top: 10px;
+
+  .placeholder-image {
+    margin: 0 auto;
+    width: 360px;
+    height: 260px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../assets/image/pic-EmptyOverview.png');
+  }
+
+  p {
+    font-size: 13px;
+    color: var(--colorFontGrey);
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "id"            : "7",
+    "name"          : "event_service_daily_report",
+    "description_en": "Event Service Daily Report",
+    "description_zh": "事件服务每日报告",
+    "payload_fields": ["total"],
+    "payload_validator": {
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "id"          : "4311",
+    "name"        : "transcodeChannelConcurrencyAudioHostIn",
+    "aggregation" : "MAX",
+    "unit_group"  : "counter",
+    "unit_type"   : "count",
+    "description" : "Transcode Channel Concurrency (Audio HostIn)",
+    "description_zh": "转码并发频道数（音频连麦）",
+    "children"    : []
+}

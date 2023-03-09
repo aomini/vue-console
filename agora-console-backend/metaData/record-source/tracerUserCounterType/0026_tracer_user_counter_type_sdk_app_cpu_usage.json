@@ -1,0 +1,9 @@
+{
+  "id": "26",
+  "name": "sdk_app_cpu_usage",
+  "counter_id": 26,
+  "theme": "grey",
+  "color": "#73716e",
+  "unit_type": "unit_type_percent",
+  "description_en": "SDK APP Cpu Usage"
+}

@@ -1,0 +1,12 @@
+{
+    "id"            : "4",
+    "name"          : "log_info",
+    "description_en": "Log Info",
+    "description_zh": "Info日志",
+    "payload_fields": ["msg"],
+    "payload_validator": {
+        "msg": {
+            "$exists": true
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "id": "6",
+    "name": "tracer",
+    "visible": 1,
+    "readable": 1,
+    "writable": 1,
+    "show_description": 0,
+    "description_en": "",
+    "description_zh": "",
+    "description_type": "info",
+    "ts_limit": 0,
+    "ts_start": 0,
+    "ts_end": 0,
+    "parent": ""
+}

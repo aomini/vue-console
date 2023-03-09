@@ -1,0 +1,9 @@
+{
+  "id": "013",
+  "name": "audio_playback_frequency",
+  "counter_id": 13,
+  "theme": "green",
+  "color": "#1abc9c",
+  "unit_type": "unit_type_hz",
+  "description_en": "Audio Playback Frequency"
+}

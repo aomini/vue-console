@@ -1,0 +1,10 @@
+{
+    "id"          : "4302",
+    "name"        : "transcodeChannelSingleHostConcurrency",
+    "aggregation" : "MAX",
+    "unit_group"  : "counter",
+    "unit_type"   : "count",
+    "description" : "Transcode Channel Concurrency (Single Host)",
+    "description_zh": "转码并发频道数（单主播）",
+    "children"    : []
+}

@@ -1,0 +1,63 @@
+.extension-actived-card {
+  width: 275px;
+  height: 175px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(3, 27, 78, 0.12);
+  background: #fff;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0px 8px 16px 0px rgba(33, 38, 54, 0.12);
+    transition: all 0.2s linear;
+  }
+  .logo-container {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .logo {
+      background: #eff7fd;
+      margin: 10px;
+      border-radius: 5px;
+      height: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      img {
+        object-fit: contain;
+      }
+      .tip {
+        font-size: 18px;
+        color: #099dfd;
+        width: 60px;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+      }
+    }
+  }
+  .card-text {
+    margin: 10px 10px 0px 10px;
+    .extension-title {
+      font-size: 16px;
+      font-weight: 400;
+      color: #191919;
+      text-align: center;
+    }
+    .extension-name {
+      font-size: 14px;
+      font-weight: 400;
+      color: #8a8a9a;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  }
+}
+.swiper-pagination-actived {
+  text-align: center;
+}

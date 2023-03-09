@@ -1,0 +1,9 @@
+{
+    "id"        : "3",
+    "name"      : "hour",
+    "plural"    : "hours",
+    "description": "Hour",
+    "description_zh": "小时",
+    "base_type" : "second",
+    "base_times": 3600
+}

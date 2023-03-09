@@ -1,0 +1,151 @@
+.welcome-word-row {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-box-row {
+  padding: 0px 0px 20px;
+  margin-bottom: 20px;
+}
+
+.table-header-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  border: 1px solid #CED9E9;
+}
+
+.card-content-row {
+  background-color: #FFFFFF;
+  padding: 25px;
+}
+
+.card-content-row.show-intro {
+  .project-container {
+    z-index: 9999999!important;
+    position: relative;
+  }
+  .table-header-row {
+    background: #ECEFF4;
+  }
+  .onboarding-card--oversea {
+    position: relative;
+    z-index: 9999999;
+  }
+}
+
+.intro-popover {
+  position: relative;
+  z-index: 9999999!important;
+}
+
+.table-header-title-row {
+  padding: 12px 0px;
+  font-weight: 700;
+}
+
+.onboarding_create_project_row {
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.icon-project-row {
+  color: white;
+}
+
+.card-header-row {
+  background-color: #000E4B;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 11.5px 25px;
+  color: #FFFFFF;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+  color: #191919;
+}
+
+// 海外 overview card 样式适配
+.overview-row {
+  .card-box {
+    padding: 0;
+  }
+  .card-header {
+    background-color: #000E4B;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 11.5px 25px;
+    color: #FFFFFF;
+    border-radius: 4px 4px 0px 0px;
+  }
+  .configure_box {
+    display: flex;
+    justify-content: right;
+  }
+  .card-content {
+    margin: 20px;
+  }
+  .card-footer {
+    margin: 15px 20px;
+  }
+  .card-title-row {
+    color: white;
+  }
+  .aa-advertisement {
+    padding: 0;
+  }
+}
+
+.overview-detail-highlight.introjs-helperLayer {
+  border: none;
+}
+
+.introjs-tooltip.overview-detail-intro {
+  padding: 20px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  line-height: 20px;
+  .introjs-skipbutton {
+    border: none;
+    background: none;
+    color: var(--colorFontGrey-1);
+  }
+  .introjs-button {
+    font-size: var(--fontSize14);
+    text-shadow: none;
+    border: none;
+    margin-right: 5px;
+    box-shadow: none;
+  }
+  .introjs-prevbutton, .introjs-nextbutton, .introjs-donebutton {
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    width: 80px;
+    text-align: center;
+    padding: 0.4em 0.8em;
+  }
+  .introjs-nextbutton, .introjs-donebutton {
+    color: var(--colorPrimaryWhite);
+    background: var(--colorPrimary);
+  }
+  .introjs-donebutton {
+    float: right;
+  }
+  .introjs-prevbutton {
+    color: var(--colorPrimaryDark);
+    background: var(--colorPrimaryWhite);
+    border-color: var(--colorBorderGrey);
+  }
+}
+
+.intro-overlay {
+  inset: 0px;
+  position: fixed;
+  background: rgba(58, 58, 58, 0.6);
+  z-index: 999999;
+}

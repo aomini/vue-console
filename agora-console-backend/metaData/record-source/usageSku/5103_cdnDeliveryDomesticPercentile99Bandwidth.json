@@ -1,0 +1,9 @@
+{
+    "id"          : "5103",
+    "name"        : "cdnDeliveryDomesticPercentile99Bandwidth",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "CDN Delivery Bandwidth (Domestic Percentile 99)",
+    "description_zh": "CDN分发带宽（国内99峰值）",
+    "children"    : []
+}

@@ -1,0 +1,6 @@
+{
+    "id"          : "2",
+    "name"        : "chinanetcenter",
+    "description" : "Chinanet Center Live CDN",
+    "url"         : "push.chinanetcenter.broadcastapp.agoraio.cn/live/"
+}

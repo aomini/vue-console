@@ -1,0 +1,9 @@
+{
+  "id": "008",
+  "name": "audio_signal_level_nearout",
+  "counter_id": 8,
+  "theme": "purple",
+  "color": "#8677a7",
+  "unit_type": "count",
+  "description_en": "Audio Signal Level(nearout)"
+}

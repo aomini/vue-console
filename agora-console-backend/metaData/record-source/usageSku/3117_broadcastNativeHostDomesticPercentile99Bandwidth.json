@@ -1,0 +1,9 @@
+{
+    "id"          : "3117",
+    "name"        : "broadcastNativeHostDomesticPercentile99Bandwidth",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "Broadcast Native Host Domestic Percentile 99 Bandwidth",
+    "description_zh": "直播主播国内99峰值带宽",
+    "children"    : []
+}

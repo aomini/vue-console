@@ -1,0 +1,21 @@
+{
+    "id"            : "6",
+    "name"          : "process_status_report",
+    "description_en": "Process Status Report",
+    "description_zh": "进程状态报告",
+    "payload_fields": ["eventLoopLag", "pid", "pm_id", "version", "cpuUsage", "memoryUsage"],
+    "payload_validator": {
+        "eventLoopLag": {
+            "$exists": true
+        },
+        "pid": {
+            "$exists": true
+        },
+        "cpuUsage": {
+            "$exists": true
+        },
+        "memoryUsage": {
+            "$exists": true
+        }
+    }
+}

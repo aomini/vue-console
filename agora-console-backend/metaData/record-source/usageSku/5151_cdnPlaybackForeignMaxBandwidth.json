@@ -1,0 +1,10 @@
+{
+    "id"          : "5151",
+    "name"        : "cdnPlaybackForeignMaxBandwidth",
+    "aggregation" : "MAX",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "CDN Playback Bandwidth (Foreign MAX)",
+    "description_zh": "CDN回放带宽（海外最大）",
+    "children"    : []
+}

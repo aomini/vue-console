@@ -1,0 +1,9 @@
+{
+    "id"          : "5133",
+    "name"        : "cdnPlaybackDomesticPercentile99Bandwidth",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "CDN Playback Bandwidth (Domestic Percentile 99)",
+    "description_zh": "CDN回放带宽（国内99峰值）",
+    "children"    : []
+}

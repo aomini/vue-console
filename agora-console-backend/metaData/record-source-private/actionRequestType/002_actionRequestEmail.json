@@ -1,0 +1,6 @@
+{
+    "id": 2,
+    "name": "action_request_email",
+    "description_en": "Request Email Action",
+    "description_zh": "尝试发送电子邮件"
+}

@@ -1,0 +1,12 @@
+{
+    "id"            : "3",
+    "name"          : "batch_pushstream_fail",
+    "description_en": "Batch Push Stream Fail",
+    "description_zh": "多个推流失败上报（一次请求）",
+    "payload_fields": ["reports"],
+    "payload_validator": {
+        "reports": {
+            "$exists": true
+        }
+    }
+}

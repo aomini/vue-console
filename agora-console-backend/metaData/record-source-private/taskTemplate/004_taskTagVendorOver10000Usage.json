@@ -1,0 +1,10 @@
+{
+    "id": "4",
+    "name": "taskTagVendorOver10000UsageThisMonth",
+    "mode": "in_process",
+    "main": "tasks/tagUsage/taskTagVendorOver10000UsageThisMonth",
+    "cron": "2 16 * * *",
+    "triggerAfter": "",
+    "statusReportInterval": 1000,
+    "manual": true
+}

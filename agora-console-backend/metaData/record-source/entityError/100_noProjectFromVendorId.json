@@ -1,0 +1,6 @@
+{
+    "id"          : "100",
+    "name"        : "noProjectFromVendorId",
+    "entity_type" : "Vendor",
+    "description" : "No Project From Vendor ID"
+}

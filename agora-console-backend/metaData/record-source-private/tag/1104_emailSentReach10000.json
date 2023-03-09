@@ -1,0 +1,10 @@
+{
+    "id": 1104,
+    "name": "emailSentReach10000",
+    "description": "Email Sent:Usage Reach 10000",
+    "manual": 0,
+    "color": "default",
+    "popular": false,
+    "webpower_groupid": 90,
+    "status": 1
+}

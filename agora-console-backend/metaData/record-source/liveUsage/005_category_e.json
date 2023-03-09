@@ -1,0 +1,35 @@
+{
+    "id" : "005",
+    "name" : "category_e",
+    "title_zh" : "小程序",
+    "title_en" : "Mini Program",
+    "options" : {
+        "e1" : {
+            "id":"e1",
+            "name_zh" : "音频小程序平台",
+            "name_en" : "Audio Mini Program Platform",
+            "info":[
+                {
+                    "skus" : [1005, 2014],
+                    "unit" : "minutes",
+                    "unit_name_zh" : "分钟",
+                    "unit_name_en" : "minutes",
+                    "items_zh" : {
+                      "1005" : "音频小程序平台",
+                      "2014" : "视频小程序平台"
+                    },
+                    "items_en" : {
+                      "1005" : "Audio Mini Program Platform (minute)",
+                      "2014" : "Video Mini Program Platform (minute)"
+                    },
+                    "color" : {
+                      "1005" : "#3993FF",
+                      "2014" : "#FF6383"
+                    },
+                    "showTable": true,
+                    "showType": "columnar"
+                }
+            ]
+        }
+    }
+}

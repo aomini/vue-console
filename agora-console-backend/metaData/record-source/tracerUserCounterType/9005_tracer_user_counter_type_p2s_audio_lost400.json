@@ -1,0 +1,11 @@
+{
+  "id": "9005",
+  "name": "p2s_audio_lost400",
+  "counter_id": 9005,
+  "theme": "green",
+  "color": "#1abc9c",
+  "unit_type": "unit_type_percent",
+  "voqa_datatype": "p2s",
+  "voqa_mertics_id": "lost_ratio",
+  "description_en": "Audio Package Access Lost 400ms to Server(p2s/lost400)"
+}

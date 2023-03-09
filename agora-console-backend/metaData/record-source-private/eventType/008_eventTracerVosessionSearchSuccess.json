@@ -1,0 +1,9 @@
+{
+    "id"            : "8",
+    "name"          : "event_tracer_vosession_search_success",
+    "description_en": "Tracer Vosession Search Success",
+    "description_zh": "Tracer Vosession 搜索成功",
+    "payload_fields": ["accountEmail", "ipAddress", "condition", "respTimeMs", "total"],
+    "payload_validator": {
+    }
+}

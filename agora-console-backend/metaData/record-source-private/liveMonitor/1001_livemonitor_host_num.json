@@ -1,0 +1,21 @@
+{
+    "id": "1001",
+    "name": "livemonitor_host_num",
+    "visible": 1,
+    "readable": 1,
+    "writable": 1,
+    "show_description": 1,
+    "title_en": "Broadcaster",
+    "title_zh": "在线主播",
+    "description_en": "",
+    "description_zh": "",
+    "unit_type_en": "",
+    "unit_type_zh": "人",
+    "color": "#3993FF",
+    "description_type": "info",
+    "ts_limit": 0,
+    "ts_start": 0,
+    "ts_end": 0,
+    "category": 1,
+    "parent": ""
+}

@@ -1,0 +1,6 @@
+{
+    "id": 6,
+    "name": "action_request_dashboard",
+    "description_en": "Dashboard Message (by Company ID)",
+    "description_zh": "尝试发送给Dashboard用户（输入Company ID）"
+}

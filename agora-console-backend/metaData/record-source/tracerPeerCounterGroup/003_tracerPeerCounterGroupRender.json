@@ -1,0 +1,9 @@
+{
+  "id": "3",
+  "name": "tracer_peer_counter_group_render",
+  "description_en": "Render",
+  "counters": [
+    "audio_render_freeze_count_comm",
+    "audio_render_freeze_time_comm"
+  ]
+}

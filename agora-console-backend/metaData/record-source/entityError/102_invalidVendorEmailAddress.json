@@ -1,0 +1,6 @@
+{
+    "id"          : "102",
+    "name"        : "invalidVendorEmailAddress",
+    "entity_type" : "Vendor",
+    "description" : "Invalid Vendor Email Address"
+}

@@ -1,0 +1,10 @@
+{
+    "id": "9",
+    "name": "taskScanVendorLiveMonitoring",
+    "mode": "in_process",
+    "main": "tasks/monitoring/taskScanVendorLiveMonitoring",
+    "cron": "*/5 * * * *",
+    "triggerAfter": "",
+    "statusReportInterval": 1000,
+    "manual": true
+}

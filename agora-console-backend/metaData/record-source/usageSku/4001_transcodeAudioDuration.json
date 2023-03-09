@@ -1,0 +1,10 @@
+{
+    "id"          : "4001",
+    "name"        : "transcodeAudioDuration",
+    "aggregation" : "SUM",
+    "unit_group"  : "duration",
+    "unit_type"   : "second",
+    "description" : "Transcode Duration (Audio)",
+    "description_zh": "转码时长（音频）",
+    "children"    : []
+}

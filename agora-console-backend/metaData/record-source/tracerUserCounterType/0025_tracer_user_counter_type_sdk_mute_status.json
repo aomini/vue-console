@@ -1,0 +1,9 @@
+{
+  "id": "25",
+  "name": "sdk_mute_status",
+  "counter_id": 25,
+  "theme": "red",
+  "color": "#ec7063",
+  "unit_type": "unit_type_enum",
+  "description_en": "SDK Mute Status(bit-based)"
+}

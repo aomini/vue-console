@@ -1,0 +1,9 @@
+{
+  "id": "0077",
+  "name": "video_renderer_out_frame_rate",
+  "counter_id": 77,
+  "theme": "aero",
+  "color": "#9cc2cb",
+  "unit_type": "unit_type_fps",
+  "description_en": "Video Renderer Out Frame Rate"
+}

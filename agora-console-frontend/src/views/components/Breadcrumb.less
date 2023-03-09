@@ -1,0 +1,27 @@
+.main-breadcrumb {
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  .el-breadcrumb{
+    display: flex;
+    align-items: center;
+    .main-breadcrumb__title {
+      font-weight: 500;
+      float: left;
+      margin-right: 17px;
+    }
+  }
+  .el-breadcrumb__item{
+    &:not(:last-child) {
+      .el-breadcrumb__inner {
+        color: var(--ad-neutral-color-icon) !important;
+      }
+    }
+  }
+}

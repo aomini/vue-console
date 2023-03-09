@@ -1,0 +1,17 @@
+{
+    "id"            : "2",
+    "name"          : "pushstream_success_rate_report",
+    "description_en": "Pushstream Success Rate Report",
+    "description_zh": "推流成功率报告",
+    "payload_fields": ["rate"],
+    "payload_validator": {
+        "rate": {
+            "$gte": 0,
+            "$lte": 100
+        },
+        "ts": {
+            "$gt": 1483228800,
+            "$lt": 7956835200
+        }
+    }
+}

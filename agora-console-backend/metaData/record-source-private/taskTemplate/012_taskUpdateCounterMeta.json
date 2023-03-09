@@ -1,0 +1,10 @@
+{
+    "id": "12",
+    "name": "taskUpdateCounterMeta",
+    "mode": "in_process",
+    "main": "tasks/updateCounterMeta/updateCounterMeta",
+    "cron": "",
+    "triggerAfter": "",
+    "statusReportInterval": 1000,
+    "manual": true
+}

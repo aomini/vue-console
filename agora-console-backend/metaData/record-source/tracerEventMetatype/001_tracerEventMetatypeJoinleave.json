@@ -1,0 +1,7 @@
+{
+  "id": "1",
+  "name": "tracer_event_metatype_joinleave",
+  "description_en": "Join/Leave",
+  "classSuffix": "default",
+  "color": "#aaa"
+}

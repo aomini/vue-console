@@ -1,0 +1,6 @@
+{
+  "id": "5",
+  "name": "tracer_event_type_getfirstaudioframe",
+  "mapping": "vosdk.peer",
+  "event_meta_type": "tracer_event_metatype_audio"
+}

@@ -1,0 +1,6 @@
+{
+    "id"          : "3",
+    "name"        : "gosun",
+    "description" : "Gosun Live CDN",
+    "url"         : "push.gosun.broadcastapp.agoraio.cn/live/"
+}

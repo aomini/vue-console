@@ -1,0 +1,9 @@
+{
+  "id": "0063",
+  "name": "video_encoder_in_frame_rate",
+  "counter_id": 63,
+  "theme": "aero",
+  "color": "#9cc2cb",
+  "unit_type": "unit_type_fps",
+  "description_en": "Video Encoder In Frame Rate"
+}

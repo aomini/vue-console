@@ -1,0 +1,15 @@
+{
+    "id"             : "100",
+    "name"           : "notice_cn_www_index_production",
+    "description_en" : "Notification on http://www.agora.io/cn/",
+    "description_zh" : "中文官网首页通知横幅",
+    "url_www"        : "http://www.agora.io/cn/",
+    "url_json"       : "https://agora-website-public.oss-cn-hangzhou.aliyuncs.com/notice/notice_cn_www_index_production.json",
+    "title_enabled"  : true,
+    "content_enabled": true,
+    "store_type"     : "oss",
+    "oss_region"     : "oss-cn-hangzhou",
+    "oss_bucket"     : "agora-website-public",
+    "oss_prefix_json": "notice/notice_cn_www_index_production.json",
+    "allowed_keys"   : ["latest"]
+}

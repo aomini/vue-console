@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "name": "tracer_peer_counter_group_codec",
+  "description_en": "Encode / Decode",
+  "counters": [
+    "video_decoder_out_frame_rate",
+    "video_decoder_in_frame_rate"
+  ]
+}

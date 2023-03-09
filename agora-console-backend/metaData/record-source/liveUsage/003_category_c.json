@@ -1,0 +1,74 @@
+{
+    "id" : "003",
+    "name" : "category_c",
+    "title_zh" : "H265 转码统计",
+    "title_en" : "H265 Transcoding Statistics",
+    "options" : {
+        "c1" : {
+            "id":"c1",
+            "name_zh" : "视频SD,HD,HD+转码时长 (minutes)",
+            "name_en" : "H265 Video SD, HD, HD+ Transcoding Duration",
+            "info":[
+                {
+                    "skus" : [4008, 4009, 4010],
+                    "unit" : "minutes",
+                    "unit_name_zh" : "分钟",
+                    "unit_name_en" : "minutes",
+                    "merge": {
+                        "fromSku": 4008,
+                        "toSku": 4009
+                    },
+                    "items_zh" : {
+                        "4008" : "H265 转码时长 （视频 SD）",
+                        "4009" : "H265 转码时长 （视频 HD）",
+                        "4010" : "H265 转码时长 （视频 HD+）"
+                    },
+                    "items_en" : {
+                        "4008" : "H265 Transcode Duration (Video SD) (minute)",
+                        "4009" : "H265 Transcode Duration (Video HD) (minute)",
+                        "4010" : "H265 Transcode Duration (Video HD+) (minute)"
+                    },
+                    "color" : {
+                        "4008" : "#3993FF",
+                        "4009" : "#FF6383",
+                        "4010" : "#4BC0C0"
+                    },
+                    "showTable": true
+                }
+            ]
+        },
+        "c2" : {
+            "id":"c2",
+            "name_zh" : "视频SD,HD,HD+转码并发频道 (Channel)",
+            "name_en" : "H265 Video SD, HD, HD+ Transcoding Concurrent Channel",
+            "info":[
+                {
+                    "skus" : [4315, 4316, 4317],
+                    "unit" : "count",
+                    "unit_name_zh" : "频道",
+                    "unit_name_en" : "channel",
+                    "merge": {
+                        "fromSku": 4315,
+                        "toSku": 4316
+                    },
+                    "items_zh" : {
+                        "4315" : "H265 转码并发频道数 （视频 SD）",
+                        "4316" : "H265 转码并发频道数 （视频 HD）",
+                        "4317" : "H265 转码并发频道数 （视频 HD+）"
+                    },
+                    "items_en" : {
+                        "4315" : "H265 Transcode Channel Concurrency (Video SD) (Channel)",
+                        "4316" : "H265 Transcode Channel Concurrency (Video HD) (Channel)",
+                        "4317" : "H265 Transcode Channel Concurrency (Video HD+) (Channel)"
+                    },
+                    "color" : {
+                        "4315" : "#3993FF",
+                        "4316" : "#FF6383",
+                        "4317" : "#4BC0C0"
+                    },
+                    "showTable": true
+                }
+            ]
+        }
+    }
+}

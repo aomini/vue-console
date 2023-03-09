@@ -1,0 +1,9 @@
+{
+    "id"          : "3116",
+    "name"        : "broadcastNativeAudienceForeignPercentile95Bandwidth",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "Broadcast Native Audience Foreign Percentile 95 Bandwidth",
+    "description_zh": "直播观众海外95峰值带宽",
+    "children"    : []
+}

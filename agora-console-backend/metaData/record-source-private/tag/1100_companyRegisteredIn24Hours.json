@@ -1,0 +1,9 @@
+{
+    "id": 1100,
+    "name": "RegisteredIn24Hours",
+    "description": "Registered In 24 Hours",
+    "manual": 0,
+    "color": "default",
+    "popular": true,
+    "status": 1
+}

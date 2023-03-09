@@ -1,0 +1,9 @@
+{
+    "id"          : "2123",
+    "name"        : "totalBandwidthPercentile99",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "Total Bandwidth Percentile 99",
+    "description_zh": "总带宽99峰值",
+    "children"    : [2103, 2113]
+}

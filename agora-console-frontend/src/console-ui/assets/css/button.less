@@ -1,0 +1,192 @@
+@keyframes buttonEffect {
+  from {
+    opacity: 0.4;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    border-width: 0;
+  }
+  to {
+    opacity: 0;
+    top: -6px;
+    left: -6px;
+    bottom: -6px;
+    right: -6px;
+    border-width: 6px;
+  }
+}
+
+.console-btn {
+  min-width: 80px;
+  height: 34px;
+  border-radius: var(--borderRadiusBase);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.console-btn,
+.console-btn-default {
+  position: relative;
+  cursor: pointer;
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  font-size: var(--fontSizeMd);
+  user-select: none;
+  background: var(--colorPure);
+  color: var(--colorPrimary);
+  border-color: var(--colorPrimary);
+  & .t-icon {
+    font-size: inherit;
+  }
+}
+
+.console-btn-white {
+  position: relative;
+  cursor: pointer;
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  font-size: var(--fontSizeMd);
+  user-select: none;
+  background: var(--colorPure);
+  color: var(--colorFontBlack);
+  border-color: var(--colorBorderGrey);
+}
+
+.console-btn-white:hover {
+  background: var(--colorPrimary);
+  color: var(--colorPrimaryWhite);
+  border: none;
+}
+
+.console-btn-primary-outline {
+  border-color: var(--colorBorderGrey);
+  font-size: var(--fontSizeMd) !important;
+  color: var(--colorPrimary);
+}
+
+.console-btn-primary-outline:hover {
+  background: #099DFD;
+  color: var(--colorPrimaryWhite);
+}
+
+.console-btn-primary-outline:active {
+  background: #027AC7;
+  color: var(--colorPrimaryWhite);
+}
+
+.console-btn-success-outline {
+  border-color: var(--colorSuccess);
+  color: var(--colorFontBlack);
+}
+
+.console-btn-size-sm {
+  font-size: var(--fontSize13) !important;
+  height: var(--buttonHeightSm) !important;
+  line-height: calc(var(--buttonHeightSm) - 2px) !important;
+  padding: var(--buttonPaddingSm) !important;
+}
+
+.console-btn-size-md {
+  font-size: var(--fontSize14);
+  height: var(--buttonHeightMd);
+  line-height: calc(var(--buttonHeightMd) - 2px);
+  padding: var(--buttonPaddingMd);
+}
+
+.console-btn-size-lg {
+  font-size: var(--fontSize16);
+  height: var(--buttonHeightLg);
+  line-height: calc(var(--buttonHeightLg) - 2px);
+  padding: var(--buttonPaddingLg);
+}
+
+.console-btn:focus,
+.console-btn:active:focus {
+  outline: 0;
+  outline-offset: -2px;
+}
+
+.console-btn:hover,
+.console-btn:focus {
+  text-decoration: none;
+}
+
+.console-btn:active {
+  outline: 0;
+  background-image: none;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.console-btn.is-clicked::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: inherit;
+  border-style: inherit;
+  border-color: inherit;
+  animation: buttonEffect 0.5s forwards;
+}
+
+.console-btn-primary {
+  background: var(--colorPrimary);
+  border-color: var(--colorPrimary);
+  color: var(--colorPrimaryWhite);
+}
+.console-btn-primary:hover {
+  background: #45B6FF;
+}
+.console-btn-primary:active, .console-btn-white:active {
+  background: #027AC7;
+}
+
+.console-btn-success {
+  background: var(--colorSuccess);
+  border-color: var(--colorSuccess);
+  color: var(--colorPure);
+}
+
+.console-btn-danger {
+  background: var(--colorDanger);
+  border-color: var(--colorDanger);
+  color: var(--colorPure);
+}
+
+.console-btn-info {
+  background: var(--colorInfo);
+  border-color: var(--colorInfo);
+  color: var(--colorPure);
+}
+
+.console-btn-warning {
+  background: var(--colorWarning);
+  border-color: var(--colorWarning);
+  color: var(--colorPure);
+}
+
+.console-btn.is-disabled {
+  background: var(--backgroundColorDisabled);
+  color: var(--textColorDisabled) !important;
+  border-color: var(--borderColorBase);
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.console-btn + .console-btn {
+  margin-left: 10px;
+}

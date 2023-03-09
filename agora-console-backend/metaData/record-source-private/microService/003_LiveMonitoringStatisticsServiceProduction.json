@@ -1,0 +1,11 @@
+{
+    "id": "3",
+    "name": "live_monitoring_statistics_service_production",
+    "type": "thrift",
+    "thrift_path_service": "thrift/monitoring/gen-nodejs/StatisticsService",
+    "thrift_path_ttype": "thrift/monitoring/gen-nodejs/live-monitoring_types",
+    "thrift_host": "8.37.238.53",
+    "thrift_port": "19091",
+    "thrift_transport": "TFramedTransport",
+    "thrift_protocol": "TCompactProtocol"
+}

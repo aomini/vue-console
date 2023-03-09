@@ -1,0 +1,10 @@
+{
+    "id"          : "2009",
+    "name"        : "hdVideoDuration",
+    "aggregation" : "SUM",
+    "unit_group"  : "duration",
+    "unit_type"   : "second",
+    "description" : "Video Duration (HD)",
+    "description_zh": "视频时长（HD）",
+    "children"    : [2003, 2006]
+}

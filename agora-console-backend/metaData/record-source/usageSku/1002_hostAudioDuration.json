@@ -1,0 +1,11 @@
+{
+    "id"          : "1002",
+    "name"        : "hostAudioDuration",
+    "valid_from"  : "2017-06-01",
+    "aggregation" : "SUM",
+    "unit_group"  : "duration",
+    "unit_type"   : "second",
+    "description" : "Audio Duration(Host)",
+    "description_zh": "音频时长（主播）",
+    "children"    : []
+}

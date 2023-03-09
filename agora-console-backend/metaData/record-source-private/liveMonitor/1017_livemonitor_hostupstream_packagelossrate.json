@@ -1,0 +1,21 @@
+{
+    "id": "1017",
+    "name": "livemonitor_hostupstream_packagelossrate",
+    "visible": 1,
+    "readable": 1,
+    "writable": 1,
+    "show_description": 1,
+    "title_en": "Host Upstream Package Loss Rate",
+    "title_zh": "主播上行丢包率",
+    "description_en": "Package Loss rate of host local sender",
+    "description_zh": "主播上行丢包率 = 主播本地发送端的丢包率，含连麦",
+    "unit_type_en": "%",
+    "unit_type_zh": "%",
+    "color": "#F1BB37",
+    "description_type": "info",
+    "ts_limit": 0,
+    "ts_start": 0,
+    "ts_end": 0,
+    "category": 57,
+    "parent": ""
+}

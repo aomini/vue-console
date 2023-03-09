@@ -1,0 +1,6 @@
+{
+    "id"          : "4",
+    "name"        : "chinacache",
+    "description" : "China Cache Live CDN",
+    "url"         : "push.chinacache.broadcastapp.agoraio.cn/live/"
+}

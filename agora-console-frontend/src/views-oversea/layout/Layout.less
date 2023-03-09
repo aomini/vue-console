@@ -1,0 +1,142 @@
+.en .console-v3 {
+  .header-v3 {
+    min-height: 60px;
+    padding: 0!important;
+  }
+  .el-main {
+    padding: 17px 20px;
+    //overflow-x: hidden;
+  }
+
+  .alert-link {
+    font-size: 16px;
+  }
+
+  .support-container {
+    @media (max-width: 750px) {
+      display: none;
+    }
+  }
+  .support-entry {
+    position: fixed;
+    bottom: 150px;
+    right: 9px;
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
+    z-index: 2001;
+    box-shadow: 0px 4px 12px 0px rgba(33, 38, 54, 0.2);
+    border-radius: 34px;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.en .console-v3-row {
+  .pb-67 {
+    padding-bottom: 67px;
+  }
+}
+
+.el-tooltip__popper.is-light.support-box {
+  background: #fff;
+  padding: 16px;
+  border: none !important;
+  .support-menu {
+    &:first-child {
+      border-bottom: 1px solid #dee2e6;
+      padding-bottom: 16px;
+    }
+    &:last-child {
+      padding-top: 16px;
+    }
+    &:hover {
+      cursor: pointer;
+      .support-title, .support-menu-icon {
+        color: var(--colorPrimary);
+      }
+    }
+  }
+  .support-title {
+    font-size: 14px;
+    color: var(--colorFontBlack);
+    margin-bottom: 6px;
+    .support-menu-icon {
+      margin-right: 4px;
+      color: #726EA3;
+      font-size: 20px;
+      &.iconicon-kefu {
+        font-size: 16px;
+        margin-right: 6px;
+      }
+    }
+  }
+  .support-content {
+    font-size: 12px;
+    color: var(--colorFontGrey);
+  }
+}
+.support-iframe {
+  box-shadow: 0px 3px 10px 0px rgba(33, 38, 54, 0.1);
+  width: 700px;
+  height: 584px;
+  position: absolute;
+  bottom: 56px;
+  right: 85px;
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 2002;
+  .support-close {
+    position: absolute;
+    font-size: 24px;
+    color: #A7A7CA;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+}
+
+.console-v3-row {
+  .container-v3 {
+    padding: 0;
+    background-color: #ECEFF4;
+  }
+  .menu-horizontal-v3 {
+    border-bottom: none;
+  }
+  .main-v3-row {
+    padding-top: 0;
+  }
+  .el-alert__content {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    img {
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+    span {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+.pb-67 {
+  padding-bottom: 67px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+

@@ -1,0 +1,368 @@
+.pre-left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  align-items: center;
+}
+
+.item-icon img {
+  width: 68px;
+  height: 68px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+
+.info-title {
+  color: var(--colorFontGrey);
+  width: 100px;
+  margin: 0;
+}
+
+.auth-items .card {
+  flex-direction: row;
+  .auth-item-horizontal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    &:not(:last-child) {
+      border-right: 1px solid #e9e9e9;
+    }
+    p {
+      margin: 0;
+      padding: 0;
+      line-height: 18px;
+    }
+  }
+  .link {
+    color: #099dfd;
+    a {
+      color: #099dfd;
+    }
+  }
+}
+
+.item-left {
+  width: 450px;
+  padding-right: 20px;
+}
+
+.submitted-tips {
+  font-size: 18px;
+  padding-bottom: 16px;
+  img {
+    margin-right: 10px;
+  }
+}
+
+.authed-box {
+  display: flex;
+  padding-top: 35px;
+  justify-content: center;
+  margin-bottom: 50px;
+  .submitted-tips {
+    border-bottom: 1px solid #e9e9e9;
+    display: flex;
+    align-items: center;
+  }
+  .console-btn {
+    position: relative;
+    left: 25%;
+    margin-top: 20px;
+  }
+}
+
+
+.row-info {
+  margin-bottom: 0px;
+}
+
+.auth-title {
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  span {
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
+
+.auth-desc {
+  min-width: 180px;
+  font-size: 13px;
+  color: var(--colorFontGrey);
+  .detail-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+  }
+}
+
+/* personalAuth */
+.personAuth {
+  .submit-form {
+    padding-top: 40px;
+    margin: auto;
+  }
+  .el-input {
+    width: 230px;
+  }
+  .edit-line {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 200px;
+  }
+  .avatar-uploader .el-upload {
+    border: 1px dashed #cccccc;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .avatar-uploader .el-upload:hover {
+    border-color: #409eff;
+  }
+  .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 230px;
+    height: 153px;
+    line-height: 153px;
+    text-align: center;
+  }
+  .avatar {
+    width: 230px;
+    height: 153px;
+    display: block;
+  }
+  .tip-line {
+    width: 230px;
+    font-size: 12px;
+    color: #666666;
+    position: relative;
+  }
+  .edit-line .button {
+    width: 110px;
+  }
+  .required {
+    color: #f56c6c;
+  }
+
+  input[type='checkbox'] {
+    width: 14px;
+    height: 14px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .alipay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    .qrcode {
+      margin: 34px 0 10px 0;
+      border: 1px dashed;
+      padding: 10px;
+    }
+    & > img {
+      position: absolute;
+      width: 320px;
+      height: 320px;
+      top: 35px;
+    }
+    .title {
+      margin-bottom: 20px;
+      font-size: 12px;
+      color: #333;
+    }
+  }
+  .word-wrapper {
+    width: 230px;
+    position: relative;
+    left: 100px;
+  }
+}
+
+/* EnterpriseAuth */
+.enterprise-auth {
+  .el-form-item__label {
+    color: #333333;
+    font-weight: 500;
+  }
+
+  .el-input {
+    width: 330px;
+  }
+
+  .el-step__title.is-success {
+    color: #099dfd !important;
+  }
+
+  .el-step__head.is-success {
+    color: #099dfd !important;
+    border-color: #099dfd !important;
+  }
+
+  .el-form-item__error {
+    top: 44px;
+    padding-top: 0;
+  }
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+@background-color: #3ab7f8;
+.enterprise-auth {
+  .submit-form {
+    margin: auto;
+  }
+  .edit-line {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .avatar-uploader .el-upload {
+    border: 1px dashed #cccccc;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .avatar-uploader .el-upload:hover {
+    border-color: #409eff;
+  }
+  .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 330px;
+    height: 153px;
+    line-height: 153px;
+    text-align: center;
+  }
+  .avatar {
+    width: 330px;
+    height: 153px;
+    display: block;
+  }
+  .tip-line {
+    width: 230px;
+    font-size: 12px;
+  }
+  .edit-line .button {
+    width: 110px;
+  }
+  .required {
+    color: #f56c6c;
+  }
+  p.f-12 {
+    margin: 0;
+  }
+  input[type='checkbox'] {
+    width: 14px;
+    height: 14px;
+  }
+  .el-step__head.is-success {
+    color: @background-color;
+    border-color: @background-color;
+  }
+  .el-step__title.is-success {
+    color: @background-color;
+  }
+  .el-step__head.is-process {
+    color: #c0c4cc;
+    border-color: #c0c4cc;
+  }
+  .el-step__title.is-process {
+    color: #c0c4cc;
+  }
+  .steps {
+    margin-top: 19px;
+    padding: 0 114px;
+  }
+  .step1-form,
+  .step2-form {
+    margin: auto;
+    padding-top: 40px;
+  }
+
+  .step2-form {
+    width: 100%;
+    text-align: center;
+    .line {
+      width: 500px;
+      margin: auto;
+      text-align: left;
+      margin-bottom: 20px;
+      display: flex;
+    }
+    label {
+      color: #333333;
+      font-size: 14px;
+      font-weight: 500;
+      margin-right: 12px;
+      width: 150px;
+      text-align: right;
+    }
+
+    .edit {
+      font-weight: 500;
+      font-size: 12px;
+      color: #099dfd;
+      cursor: pointer;
+    }
+
+    .sub-label {
+      color: #333333;
+      font-weight: 500;
+      font-size: 12px;
+    }
+
+    h3 {
+      color: #191919;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .save-line {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .warning {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+}
+
+.button-lg {
+  width: 120px;
+  height: 34px;
+  background: #099dfd;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+}
+
+.auth-btn {
+  min-width: 130px;
+  font-size: var(--fontSize14);
+  &.auth-btn-white {
+    color: var(--colorPrimary);
+  }
+  &.auth-btn-white:hover {
+    color: var(--colorPrimaryWhite);
+  }
+}

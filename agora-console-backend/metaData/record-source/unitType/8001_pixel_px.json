@@ -1,0 +1,9 @@
+{
+    "id"        : "8001",
+    "name"      : "unit_type_px",
+    "plural"    : "px",
+    "base_type" : "unit_type_px",
+    "description": "Pixel",
+    "description_zh": "像素",
+    "base_times": 1
+}

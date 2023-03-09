@@ -1,0 +1,9 @@
+{
+  "id": "0086",
+  "name": "video_high_send_resolution_height",
+  "counter_id": 86,
+  "theme": "yellow",
+  "color": "#fc0",
+  "unit_type": "unit_type_px",
+  "description_en": "Video High Send Resolution Height"
+}

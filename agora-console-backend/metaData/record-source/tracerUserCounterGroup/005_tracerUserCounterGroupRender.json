@@ -1,0 +1,9 @@
+{
+  "id": "5",
+  "name": "tracer_user_counter_group_render",
+  "description_en": "Render",
+  "counters": [
+    "video_renderer_in_frame_rate",
+    "video_renderer_out_frame_rate"
+  ]
+}

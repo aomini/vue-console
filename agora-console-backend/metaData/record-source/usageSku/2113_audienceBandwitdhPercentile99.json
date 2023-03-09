@@ -1,0 +1,9 @@
+{
+    "id"          : "2113",
+    "name"        : "audienceBandwidthPercentile99",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "Audience Bandwidth Percentile 99",
+    "description_zh": "观众带宽99峰值",
+    "children"    : []
+}

@@ -1,0 +1,52 @@
+
+.extension-document {
+  margin-top: 50px;
+  .doc-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .doc-card {
+    cursor: pointer;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px;
+    height: 100px;
+    &:not(:last-child) {
+      margin-right: 14px;
+    }
+    &:hover {
+      .doc-text-title {
+        color: #099DFD;
+      }
+    }
+    &.disabled {
+      background: #FAFAFA;
+      color: #999999;
+      cursor: not-allowed;
+      .doc-text-title {
+        color: #999999;
+      }
+    }
+  }
+  .doc-text-box {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .doc-text-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #191919;
+  }
+  .extension-document-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #191919;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #191919;
+  }
+}

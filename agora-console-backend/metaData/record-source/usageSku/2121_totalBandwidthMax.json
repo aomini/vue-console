@@ -1,0 +1,10 @@
+{
+    "id"          : "2121",
+    "name"        : "totalBandwidthMax",
+    "aggregation" : "MAX",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "Total Bandwidth Max",
+    "description_zh": "带宽峰值（总）",
+    "children"    : [2101, 2111]
+}

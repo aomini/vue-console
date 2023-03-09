@@ -1,0 +1,6 @@
+{
+  "id": "4",
+  "name": "tracer_event_type_loginvoserver",
+  "mapping": "vosdk.vos",
+  "event_meta_type": "tracer_event_metatype_voserver"
+}

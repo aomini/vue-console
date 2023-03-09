@@ -1,0 +1,9 @@
+{
+    "id"          : "3120",
+    "name"        : "broadcastNativeAudienceForeignPercentile99Bandwidth",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "Broadcast Native Audience Foreign Percentile 99 Bandwidth",
+    "description_zh": "直播观众海外99峰值带宽",
+    "children"    : []
+}

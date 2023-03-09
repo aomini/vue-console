@@ -1,0 +1,9 @@
+{
+    "id"          : "5112",
+    "name"        : "cdnDeliverySarAverageBandwidth",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "CDN Delivery Bandwidth (SAR Average)",
+    "description_zh": "CDN分发带宽（港澳平均）",
+    "children"    : []
+}

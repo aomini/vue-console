@@ -1,0 +1,11 @@
+{
+  "id": "9016",
+  "name": "p2s_video_lost800",
+  "counter_id": 9016,
+  "theme": "grey",
+  "color": "#73716e",
+  "unit_type": "unit_type_percent",
+  "voqa_datatype": "p2sv",
+  "voqa_mertics_id": "lost_ratio2",
+  "description_en": "Video Package Access Lost 800ms to Server(p2sv/lost2)"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "4",
+  "name": "tracer_counter_user_group_capture",
+  "description_en": "Capture",
+  "counters": [
+    "video_capture_frame_rate",
+    "video_capture_resolution_height",
+    "video_capture_resolution_width"
+  ]
+}

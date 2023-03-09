@@ -1,0 +1,10 @@
+{
+    "id": "10",
+    "name": "taskSendEventServiceDailyReport",
+    "mode": "in_process",
+    "main": "tasks/eventServiceDailyReport/taskSendEventServiceDailyReport",
+    "cron": "0 1 * * *",
+    "triggerAfter": "",
+    "statusReportInterval": 1000,
+    "manual": true
+}

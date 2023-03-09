@@ -1,0 +1,14 @@
+{
+  "id": "1",
+  "name": "tracer_user_counter_group_send",
+  "description_en": "Send",
+  "counters": [
+    "audio_send_bitrate",
+    "audio_send_codec_type",
+    "video_send_target_bitrate",
+    "video_high_send_bitrate",
+    "video_high_send_frame_rate",
+    "video_high_send_resolution_height",
+    "video_high_send_resolution_width"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "3",
+  "name": "tracer_user_counter_group_codec",
+  "description_en": "Encode/Decode",
+  "counters": [
+    "audio_send_codec_type",
+    "video_encoder_in_frame_rate",
+    "video_encoder_out_frame_rate"
+  ]
+}

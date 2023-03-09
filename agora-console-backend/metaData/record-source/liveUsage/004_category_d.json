@@ -1,0 +1,73 @@
+{
+    "id" : "004",
+    "name" : "category_d",
+    "title_zh" : "录制统计",
+    "title_en" : "Recording Statistics",
+    "options" : {
+        "d1" : {
+            "id":"d1",
+            "name_zh" : "录制 SDK 时长 (minutes)",
+            "name_en" : "Recording SDK Audio, Video Duration (minutes)",
+            "info":[
+                {
+                    "skus" : [1004, 2011, 2012, 2013],
+                    "unit" : "count",
+                    "unit_name_zh" : "",
+                    "unit_name_en" : "",
+                    "merge": {
+                        "fromSku": 2011,
+                        "toSku": 2012
+                    },
+                    "items_zh" : {
+                      "1004" : "录制SDK音频",
+                      "2011" : "录制SDK视频SD",
+                      "2012" : "录制SDK视频HD",
+                      "2013" : "录制SDK视频HD+"
+                    },
+                    "items_en" : {
+                      "1004" : "Recording SDK Audio (minute)",
+                      "2011" : "Recording SDK Video SD (minute)",
+                      "2012" : "Recording SDK Video HD (minute)",
+                      "2013" : "Recording SDK Video HD+ (minute)"
+                    },
+                    "color" : {
+                        "1004" : "#3993FF",
+                        "2011" : "#FF6383",
+                        "2012" : "#4BC0C0",
+                        "2013" : "#F1BB37"
+                    },
+                    "showTable": true
+                }
+            ]
+        },
+        "d2" : {
+            "id":"d2",
+            "name_zh" : "录制SDK观众最大带宽 (kbps)",
+            "name_en" : "Recording SDK Bandwidth Max (kbps)",
+            "info":[
+                {
+                    "skus" : [2131, 2133, 2134],
+                    "unit" : "minutes",
+                    "unit_name_zh" : "分钟",
+                    "unit_name_en" : "minutes",
+                    "items_zh" : {
+                        "2131" : "录制SDK观众最大带宽",
+                        "2133" : "录制SDK观众带宽99峰值",
+                        "2134" : "录制SDK观众带宽95峰值"
+                    },
+                    "items_en" : {
+                        "2131" : "Recording SDK Audience Bandwidth Max (kbps)",
+                        "2133" : "Recording SDK Audience Bandwidth Percentile 99 (kbps)",
+                        "2134" : "Recording SDK Audience Bandwidth Percentile 95 (kbps)"
+                    },
+                    "color" : {
+                        "2131" : "#3993FF",
+                        "2133" : "#FF6383",
+                        "2134" : "#4BC0C0"
+                    },
+                    "showTable": true
+                }
+            ]
+        }
+    }
+}

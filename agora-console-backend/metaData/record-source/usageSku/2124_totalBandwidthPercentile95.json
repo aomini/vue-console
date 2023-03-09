@@ -1,0 +1,9 @@
+{
+    "id"          : "2124",
+    "name"        : "totalBandwidthPercentile95",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "Total Bandwidth Percentile 95",
+    "description_zh": "总带宽95峰值",
+    "children"    : [2104, 2114]
+}

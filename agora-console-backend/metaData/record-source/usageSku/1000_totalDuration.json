@@ -1,0 +1,11 @@
+{
+    "id"          : "1000",
+    "name"        : "totalDuration",
+    "valid_from"  : "2017-06-01",
+    "aggregation" : "SUM",
+    "unit_group"  : "duration",
+    "unit_type"   : "second",
+    "description" : "Total Duration",
+    "description_zh": "时长（总）",
+    "children"    : [1001, 1002]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "27",
+  "name": "sdk_system_cpu_usage",
+  "counter_id": 27,
+  "theme": "yellow",
+  "color": "#fc0",
+  "unit_type": "unit_type_percent",
+  "description_en": "SDK System Cpu Usage"
+}

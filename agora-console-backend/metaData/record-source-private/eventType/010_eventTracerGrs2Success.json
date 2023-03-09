@@ -1,0 +1,9 @@
+{
+    "id"            : "10",
+    "name"          : "event_tracer_grs2_apicall_success",
+    "description_en": "Tracer GRS2 Api Call Success",
+    "description_zh": "Tracer GRS2 Api 访问成功",
+    "payload_fields": ["options", "apiCallMs"],
+    "payload_validator": {
+    }
+}

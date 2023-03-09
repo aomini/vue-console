@@ -1,0 +1,9 @@
+{
+  "id": "019",
+  "name": "audio_send_bitrate",
+  "counter_id": 19,
+  "theme": "blue",
+  "color": "#3498db",
+  "unit_type": "unit_type_kbps",
+  "description_en": "Audio Send Bitrate"
+}

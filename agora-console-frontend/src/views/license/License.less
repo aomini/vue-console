@@ -1,0 +1,54 @@
+.bar-chart--license {
+  color: --var(--colorFontBlack);
+  margin-bottom: 24px;
+  .lg-card {
+    box-shadow: none;
+    padding: 24px 24px 0 24px;
+    .lg-card__content {
+      font-size: 30px;
+      font-family: DIN-Bold, DIN;
+      font-weight: bold;
+      border-bottom: 1px solid #e3e3ec;
+      padding-bottom: 16px;
+    }
+    .lg-card__footer {
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+  }
+}
+
+.license-table {
+  .el-table__expanded-cell {
+    padding: 0 !important;
+  }
+  .el-table__expand-icon {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  .el-table__expand-icon .el-icon-arrow-right:before {
+    content: "\e62b";
+    border: 1px solid var(--colorFontGrey);
+  }
+  .el-table__expand-icon--expanded .el-icon-arrow-right:before {
+    content: "\e621";
+  }
+}
+.el-table.license-table--expand tr {
+  background-color: #F9F9FC;
+}
+
+.license-tooltip {
+  width: 222px;
+  font-size: 13px;
+  text-align: center;
+  padding: 14px 6px;
+  .el-row {
+    .el-col:first-child {
+      text-align: right;
+    }
+    .el-col:last-child {
+      text-align: left;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "id"          : "2122",
+    "name"        : "totalBandwidthAverage",
+    "valid_from"  : "2017-06-01",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "Total Bandwidth Average",
+    "description_zh": "总带宽平均值",
+    "children"    : [2102, 2112]
+}

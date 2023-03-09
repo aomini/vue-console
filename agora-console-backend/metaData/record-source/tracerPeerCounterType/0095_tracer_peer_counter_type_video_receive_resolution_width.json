@@ -1,0 +1,9 @@
+{
+  "id": "0095",
+  "name": "video_receive_resolution_width",
+  "counter_id": 95,
+  "theme": "red",
+  "color": "#ec7063",
+  "unit_type": "unit_type_px",
+  "description_en": "Video Receive Resolution Width"
+}

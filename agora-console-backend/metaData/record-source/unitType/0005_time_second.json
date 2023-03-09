@@ -1,0 +1,9 @@
+{
+    "id"        : "5",
+    "name"      : "millisecond",
+    "plural"    : "milliseconds",
+    "description": "MilliSeconds",
+    "description_zh": "毫秒",
+    "base_type" : "second",
+    "base_times": 0.001
+}

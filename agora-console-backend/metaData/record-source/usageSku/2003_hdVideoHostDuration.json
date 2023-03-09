@@ -1,0 +1,10 @@
+{
+    "id"          : "2003",
+    "name"        : "hdVideoHostDuration",
+    "aggregation" : "SUM",
+    "unit_group"  : "duration",
+    "unit_type"   : "second",
+    "description" : "Video Duration (Host HD)",
+    "description_zh": "视频时长（主播HD）",
+    "children"    : []
+}

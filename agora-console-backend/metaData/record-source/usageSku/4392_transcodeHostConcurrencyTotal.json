@@ -1,0 +1,10 @@
+{
+    "id"          : "4392",
+    "name"        : "transcodeHostConcurrencyTotal",
+    "aggregation" : "MAX",
+    "unit_group"  : "counter",
+    "unit_type"   : "count",
+    "description" : "Transcode Host Concurrency (Total)",
+    "description_zh": "转码并发主播数（总）",
+    "children"    : [4306, 4307, 4308, 4309, 4310]
+}

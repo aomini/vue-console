@@ -1,0 +1,9 @@
+{
+    "id"          : "3112",
+    "name"        : "broadcastNativeAudienceForeignAverageBandwidth",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "Broadcast Native Audience Foreign Average Bandwidth",
+    "description_zh": "直播观众海外平均带宽",
+    "children"    : []
+}

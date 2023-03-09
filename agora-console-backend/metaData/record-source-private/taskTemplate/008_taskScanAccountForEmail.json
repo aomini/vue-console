@@ -1,0 +1,10 @@
+{
+    "id": "8",
+    "name": "taskScanAccountForEmail",
+    "mode": "in_process",
+    "main": "tasks/email/taskScanAccountForEmail",
+    "cron": "30 19 * * *",
+    "triggerAfter": "",
+    "statusReportInterval": 1000,
+    "manual": true
+}

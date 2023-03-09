@@ -1,0 +1,6 @@
+{
+    "id": 5,
+    "name": "action_request_memobird",
+    "description_en": "Request Memobird Message",
+    "description_zh": "尝试发送咕咕鸡消息"
+}

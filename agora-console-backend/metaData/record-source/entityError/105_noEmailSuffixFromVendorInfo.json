@@ -1,0 +1,6 @@
+{
+    "id"          : "105",
+    "name"        : "noEmailSuffixFromVendorInfo",
+    "entity_type" : "Vendor",
+    "description" : "No Email Suffix From Vendor Info"
+}

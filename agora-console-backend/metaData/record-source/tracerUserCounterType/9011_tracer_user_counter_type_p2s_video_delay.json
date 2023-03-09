@@ -1,0 +1,11 @@
+{
+  "id": "9011",
+  "name": "p2s_video_delay",
+  "counter_id": 9011,
+  "theme": "pink",
+  "color": "#ff66b5",
+  "unit_type": "millisecond",
+  "voqa_datatype": "p2sv",
+  "voqa_mertics_id": "delay",
+  "description_en": "Video Package Access Delay to Server(p2sv/delay)"
+}

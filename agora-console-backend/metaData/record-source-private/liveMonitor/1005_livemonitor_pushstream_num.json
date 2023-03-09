@@ -1,0 +1,21 @@
+{
+    "id": "1005",
+    "name": "livemonitor_pushstream_num",
+    "visible": 1,
+    "readable": 1,
+    "writable": 1,
+    "show_description": 1,
+    "title_en": "CDN Push",
+    "title_zh": "推流数",
+    "description_en": "",
+    "description_zh": "",
+    "unit_type_en": "",
+    "unit_type_zh": "路",
+    "color": "#A186E9",
+    "description_type": "info",
+    "ts_limit": 0,
+    "ts_start": 0,
+    "ts_end": 0,
+    "category": 5,
+    "parent": ""
+}

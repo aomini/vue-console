@@ -1,0 +1,18 @@
+{
+    "id"            : "1",
+    "name"          : "pushstream_fail",
+    "description_en": "Push Stream Fail",
+    "description_zh": "推流失败",
+    "payload_fields": ["channel", "stream", "reason"],
+    "payload_validator": {
+        "channel": {
+            "$exists": true
+        },
+        "stream": {
+            "$exists": true
+        },
+        "reason": {
+            "$exists": true
+        }
+    }
+}

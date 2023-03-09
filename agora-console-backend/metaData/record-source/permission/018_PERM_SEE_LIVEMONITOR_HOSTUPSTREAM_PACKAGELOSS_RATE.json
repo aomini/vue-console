@@ -1,0 +1,5 @@
+{
+    "id"          : "18",
+    "name"        : "PERM_SEE_LIVEMONITOR_HOSTUPSTREAM_PACKAGELOSS_RATE",
+    "description" : "Permissoin To See Live Monitoring Host Upstream Package Loss Rate"
+}

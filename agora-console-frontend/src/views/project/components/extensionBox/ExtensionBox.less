@@ -1,0 +1,72 @@
+.card.extension-box {
+  border-radius: 8px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  min-width: 200px;
+  height: 189px;
+  padding: 16px 24px;
+  .ml-14 {
+    margin-left: 14px;
+  }
+  .el-button--text {
+    text-decoration: underline;
+  }
+  .cert-box-action-btn {
+    color: #3AB7F8;
+    cursor: pointer;
+  }
+  .extension-box-header {
+    border-radius: 4px 4px 0 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #EBEEF5;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .extension-box-title {
+    margin-left: 16px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .extension-box-status {
+    flex: 0 0 auto;
+    padding: 2px 8px;
+    &.disabled {
+      background-color: var(--colorBackgroundGrey-1);
+      color: var(--colorFontGrey-1);
+    }
+    &.enabled {
+      background-color: #F7FFF0;
+      color: var(--colorFontGreen);
+    }
+  }
+
+  .extension-box-button {
+    img {
+      margin-left: 8px;
+    }
+    .iconfont {
+      color: var(--colorPrimary);
+    }
+  }
+
+  .extension-icon {
+    background-color: #E6F9FF;
+    color: #37B0FE;
+    padding: 3px 5px;
+    border-radius: 8px;
+  }
+
+  .extension-box-description {
+    margin: 12px 0px;
+    line-height: 22px;
+  }
+
+  .extension-box-title-box {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+

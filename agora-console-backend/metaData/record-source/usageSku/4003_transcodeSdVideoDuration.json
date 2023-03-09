@@ -1,0 +1,10 @@
+{
+    "id"          : "4003",
+    "name"        : "transcodeSdVideoDuration",
+    "aggregation" : "SUM",
+    "unit_group"  : "duration",
+    "unit_type"   : "second",
+    "description" : "Hostin Transcode Duration (Video SD)",
+    "description_zh": "连麦转码时长（视频SD）",
+    "children"    : []
+}

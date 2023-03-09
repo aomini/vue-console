@@ -1,0 +1,10 @@
+{
+    "id"          : "4005",
+    "name"        : "transcodeHdpVideoDuration",
+    "aggregation" : "SUM",
+    "unit_group"  : "duration",
+    "unit_type"   : "second",
+    "description" : "Hostin Transcode Duration (Video HDP)",
+    "description_zh": "连麦转码时长（视频HD+）",
+    "children"    : []
+}

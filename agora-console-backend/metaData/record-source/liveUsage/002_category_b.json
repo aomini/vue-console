@@ -1,0 +1,129 @@
+{
+    "id" : "002",
+    "name" : "category_b",
+    "title_zh" : "转码推流用量统计",
+    "title_en" : "Transcoding Push Stream Statistics",
+    "options" : {
+        "b1" : {
+            "id":"b1",
+            "name_zh" : "最大并发连麦转码频道数",
+            "name_en" : "Maximum Host-in Transcoding Channel Usage",
+            "info":[
+                {
+                    "skus" : [4303,4304,4305, 4311],
+                    "unit" : "count",
+                    "unit_name_zh" : "",
+                    "unit_name_en" : "",
+                    "merge": {
+                        "fromSku": 4303,
+                        "toSku": 4304
+                    },
+                    "items_zh" : {
+                        "4311" : "纯音频连麦转码频道数",
+                        "4303" : "最大并发连麦转码频道数SD <360P",
+                        "4304" : "最大并发连麦转码频道数HD ≥360P,≤720P",
+                        "4305" : "最大并发连麦转码频道数HD+ >720P,≤1080P"
+                    },
+                    "items_en" : {
+                        "4311" : "Pure Audio Host-in Transcoding Channel Resolutions",
+                        "4303" : "SD Maximum Host-in Transcoding Channel Resolutions <360P",
+                        "4304" : "HD Maximum Host-in Transcoding Channel Resolutions ≤720P",
+                        "4305" : "HD+ Maximum Host-in Transcoding Channel Resolutions >720P,≤1080P"
+                    },
+                    "color" : {
+                        "4311" : "#3993FF",
+                        "4303" : "#FF6383",
+                        "4304" : "#4BC0C0",
+                        "4305" : "#F1BB37"
+                    },
+                    "showTable": true
+                }
+            ]
+        },
+        "b2" : {
+            "id":"b2",
+            "name_zh" : "转码推流总时长",
+            "name_en" : "Transcoding Push Streaming Total Usage",
+            "info":[
+                {
+                    "skus" : [4002,4003,4004,4005,4006],
+                    "unit" : "minutes",
+                    "unit_name_zh" : "分钟",
+                    "unit_name_en" : "minutes",
+                    "merge": {
+                        "fromSku": 4003,
+                        "toSku": 4004
+                    },
+                    "items_zh" : {
+                        "4006" : "音频连麦时长",
+                        "4002" : "视频单主播时长",
+                        "4003" : "视频连麦时长SD <360P",
+                        "4004" : "视频连麦时长HD ≥360P,≤720P",
+                        "4005" : "视频连麦时长HD+ >720P,≤1080P"
+                    },
+                    "items_en" : {
+                        "4006" : "Audio Host-in Usage",
+                        "4002" : "Video Single Host Broadcaster Usage",
+                        "4003" : "SD Video Host-in Resolutions ≤720P",
+                        "4004" : "HD Video Host-in Resolutions ≤720P",
+                        "4005" : "HD+ Video Host-in Resolutions >720P,≤1080P"
+                    },
+                    "color" : {
+                        "4006" : "#3993FF",
+                        "4002" : "#FF6383",
+                        "4003" : "#4BC0C0",
+                        "4004" : "#F1BB37",
+                        "4005" : "#c96048"
+                    },
+                    "showTable": true
+                }
+            ]
+        },
+        "b3" : {
+            "id":"b3",
+            "name_zh" : "转码并发频道数（总连麦）",
+            "name_en" : "Transcode Channel Concurrency (Total HostIn)",
+            "info":[
+                {
+                    "skus" : [4313],
+                    "unit" : "count",
+                    "unit_name_zh" : "",
+                    "unit_name_en" : "",
+                    "items_zh" : {
+                        "4313" : "转码并发频道数（总连麦）"
+                    },
+                    "items_en" : {
+                        "4313" : "Transcode Channel Concurrency (Total HostIn)"
+                    },
+                    "color" : {
+                        "4313" : "#3993FF"
+                    },
+                    "showTable": true
+                }
+            ]
+        },
+        "b4" : {
+            "id":"b4",
+            "name_zh" : "转码并发频道数(总)",
+            "name_en" : "Transcode Channel Concurrency (Total)",
+            "info":[
+                {
+                    "skus" : [4391],
+                    "unit" : "count",
+                    "unit_name_zh" : "",
+                    "unit_name_en" : "",
+                    "items_zh" : {
+                        "4391" : "转码并发频道数(总)"
+                    },
+                    "items_en" : {
+                        "4391" : "Transcode Channel Concurrency (Total)"
+                    },
+                    "color" : {
+                        "4391" : "#3993FF"
+                    },
+                    "showTable": true
+                }
+            ]
+        }
+    }
+}

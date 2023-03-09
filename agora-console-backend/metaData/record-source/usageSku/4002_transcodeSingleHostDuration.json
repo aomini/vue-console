@@ -1,0 +1,10 @@
+{
+    "id"          : "4002",
+    "name"        : "transcodeSingleHostDuration",
+    "aggregation" : "SUM",
+    "unit_group"  : "duration",
+    "unit_type"   : "second",
+    "description" : "Transcode Duration (Single Host)",
+    "description_zh": "转码时长（单主播）",
+    "children"    : []
+}

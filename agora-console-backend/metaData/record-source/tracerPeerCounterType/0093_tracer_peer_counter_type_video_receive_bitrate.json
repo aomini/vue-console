@@ -1,0 +1,9 @@
+{
+  "id": "0093",
+  "name": "video_receive_bitrate",
+  "counter_id": 93,
+  "theme": "red",
+  "color": "#ec7063",
+  "unit_type": "unit_type_kbps",
+  "description_en": "Video Receive Bitrate"
+}

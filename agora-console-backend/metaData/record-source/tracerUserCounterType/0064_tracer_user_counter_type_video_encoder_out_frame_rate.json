@@ -1,0 +1,9 @@
+{
+  "id": "0064",
+  "name": "video_encoder_out_frame_rate",
+  "counter_id": 64,
+  "theme": "aero",
+  "color": "#9cc2cb",
+  "unit_type": "unit_type_fps",
+  "description_en": "Video Encoder Out Frame Rate"
+}

@@ -1,0 +1,21 @@
+{
+    "id": "1015",
+    "name": "livemonitor_hostlag_rate_count",
+    "visible": 1,
+    "readable": 1,
+    "writable": 1,
+    "show_description": 1,
+    "title_en": "Host Lagging Rate(Count)",
+    "title_zh": "主播卡顿率（按次数）",
+    "description_en": "Number of host side lagging/total duration of live broadcast.One time lagging:two frames of video interval > 600ms",
+    "description_zh": "主播卡顿率 （按次数）= 主播端卡顿次数／直播总时长   视频两帧间隔 > 600ms 为一次卡顿",
+    "unit_type_en": "%",
+    "unit_type_zh": "%",
+    "color": "#FF6383",
+    "description_type": "info",
+    "ts_limit": 0,
+    "ts_start": 0,
+    "ts_end": 0,
+    "category": 54,
+    "parent": ""
+}

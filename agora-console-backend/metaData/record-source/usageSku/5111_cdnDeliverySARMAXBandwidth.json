@@ -1,0 +1,10 @@
+{
+    "id"          : "5111",
+    "name"        : "cdnDeliverySARMAXBandwidth",
+    "aggregation" : "MAX",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "CDN Delivery Bandwidth (SAR MAX)",
+    "description_zh": "CDN分发带宽（港澳最大）",
+    "children"    : []
+}

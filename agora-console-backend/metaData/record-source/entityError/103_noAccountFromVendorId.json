@@ -1,0 +1,6 @@
+{
+    "id"          : "103",
+    "name"        : "noAccountFromVendorId",
+    "entity_type" : "Vendor",
+    "description" : "No Account From Vendor ID"
+}

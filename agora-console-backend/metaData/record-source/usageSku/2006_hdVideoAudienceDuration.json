@@ -1,0 +1,10 @@
+{
+    "id"          : "2006",
+    "name"        : "hdVideoAudienceDuration",
+    "aggregation" : "SUM",
+    "unit_group"  : "duration",
+    "unit_type"   : "second",
+    "description" : "Video Duration (Audience HD)",
+    "description_zh": "视频时长（观众HD）",
+    "children"    : []
+}

@@ -1,0 +1,9 @@
+{
+    "id"            : "9",
+    "name"          : "event_tracer_vosession_search_fail",
+    "description_en": "Tracer Vosession Search Fail",
+    "description_zh": "Tracer Vosession 搜索失败",
+    "payload_fields": ["accountEmail", "ipAddress", "condition", "respTimeMs", "reason"],
+    "payload_validator": {
+    }
+}

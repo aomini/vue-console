@@ -1,0 +1,10 @@
+{
+    "id"          : "3101",
+    "name"        : "broadcastNativeHostDomesticMaxBandwidth",
+    "aggregation" : "MAX",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "Broadcast Native Host Domestic Max Bandwidth",
+    "description_zh": "直播主播国内最大带宽",
+    "children"    : []
+}

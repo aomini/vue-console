@@ -1,0 +1,61 @@
+:root {
+  /* 品牌色 */
+  --ad-brand-color-1: #E8FAFF;
+  --ad-brand-color-2: #BBEDFF;
+  --ad-brand-color-3: #8EDDFE;
+  --ad-brand-color-4: #62CAFE;
+  --ad-brand-color-5: #35B4FD;
+  --ad-brand-color-6: #099DFD;
+  --ad-brand-color-7: #0679D1;
+  --ad-brand-color-8: #005EB0;
+  --ad-brand-color-9: #013D79;
+  --ad-brand-color-10: #00244D;
+
+  --ad-brand-color-normal: #099DFD;
+  --ad-brand-color-hover: #35B4FD;
+  --ad-brand-color-click: #0679D1;
+  --ad-brand-color-disable: #8EDDFE;
+
+  /* 功能色 */
+  --ad-link-color-normal: #099DFD;
+  --ad-link-color-hover: #35B4FD;
+  --ad-link-color-click: #fef3e6;
+  --ad-link-color-disable: #fef3e6;
+  --ad-link-color-special: #fef3e6;
+  --ad-link-color-background: #fef3e6;
+
+  --ad-success-color-normal: #06C633;
+  --ad-success-color-hover: #2BD14C;
+  --ad-success-color-click: #04A82F;
+  --ad-success-color-disable: #82E88F;
+  --ad-success-color-special: #B3F4B9;
+  --ad-success-color-background: #E8FFEA;
+
+  --ad-warning-color-normal: #FAAD15;
+  --ad-warning-color-hover: #FBC23F;
+  --ad-warning-color-click: #DF8E03;
+  --ad-warning-color-disable: #FDE493;
+  --ad-warning-color-special: #FEF1BD;
+  --ad-warning-color-background: #FFFBE6;
+
+  --ad-error-color-normal: #FD3636;
+  --ad-error-color-hover: #FD5F59;
+  --ad-error-color-click: #D12127;
+  --ad-error-color-disable: #FEAAA0;
+  --ad-error-color-special: #FFCCC4;
+  --ad-error-color-background: #FFECE8;
+
+  /* 中性色 */
+  --ad-neutral-color-table: #F9FBFC;
+  --ad-neutral-color-background: #F2F3F6;
+  --ad-neutral-color-line: #F2F3F6;
+  --ad-neutral-color-border: #D9DBE0;
+  --ad-neutral-color-disable: #BFC3CB;
+  --ad-neutral-color-icon: #8C93A2;
+  --ad-neutral-color-primary: #586376;
+  --ad-neutral-color-title: #18222D;
+
+  /* 白色 */
+  --color-white: #ffffff;
+  --color-black: #000000;
+}

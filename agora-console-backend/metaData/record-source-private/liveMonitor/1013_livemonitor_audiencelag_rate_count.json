@@ -1,0 +1,21 @@
+{
+    "id": "1013",
+    "name": "livemonitor_audiencelag_rate_count",
+    "visible": 1,
+    "readable": 1,
+    "writable": 1,
+    "show_description": 1,
+    "title_en": "Audience Lagging Rate(Count)",
+    "title_zh": "观众卡顿率（按次数）",
+    "description_en": "Number of audience side lagging/total duration of live broadcast",
+    "description_zh": "观众卡顿率 （按次数）= 观众端卡顿次数／直播总时长   视频两帧间隔 > 600ms 为一次卡顿",
+    "unit_type_en": "%",
+    "unit_type_zh": "%",
+    "color": "#EFC96D",
+    "description_type": "info",
+    "ts_limit": 0,
+    "ts_start": 0,
+    "ts_end": 0,
+    "category": 53,
+    "parent": ""
+}

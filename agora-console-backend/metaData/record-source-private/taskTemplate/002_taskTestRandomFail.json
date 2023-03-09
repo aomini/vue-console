@@ -1,0 +1,10 @@
+{
+    "id": "2",
+    "name": "taskTestRandomFail",
+    "mode": "in_process",
+    "main": "tasks/example/taskTestRandomFail",
+    "cron": "",
+    "triggerAfter": "",
+    "statusReportInterval": 1000,
+    "manual": true
+}

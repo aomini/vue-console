@@ -1,0 +1,9 @@
+{
+  "id": "148",
+  "name": "audio_signal_level_farin",
+  "counter_id": 148,
+  "theme": "pink",
+  "color": "#ff66b5",
+  "unit_type": "count",
+  "description_en": "Audio Signal Level(Farin)"
+}

@@ -1,0 +1,186 @@
+{
+    "id"          : "001",
+    "name"        : "category_a",
+    "title_zh" : "用量统计",
+    "title_en" : "Live Broadcast Usage",
+    "options" : {
+        "a1" : {
+            "id":"a1",
+            "name_zh" : "按分钟数计费(主播+观众)",
+            "name_en" : "bill by minutes (host broadcaster) + bill by minutes (audience)",
+            "info":[
+                {
+                    "skus" : [1001,2008,2009,2010],
+                    "unit" : "minutes",
+                    "unit_name_zh" : "分钟",
+                    "unit_name_en" : "minutes",
+                    "merge": {
+                        "fromSku": 2008,
+                        "toSku": 2009
+                    },
+                    "items_zh" : {
+                        "1001" : "音频总量",
+                        "2008" : "SD视频总量 <360P",
+                        "2009" : "HD视频总量 ≥360P, ≤ 720",
+                        "2010" : "HD+视频总量 > 720"
+                    },
+                    "items_en" : {
+                        "1001" : "Total Audio Usage",
+                        "2008" : "Total SD Video Resolutions <360P",
+                        "2009" : "Total HD Video Resolutions ≤ 720",
+                        "2010" : "Total HD+ Video Resolutions > 720"
+                    },
+                    "color" : {
+                        "1001" : "#3993FF",
+                        "2008" : "#FF6383",
+                        "2009" : "#4BC0C0",
+                        "2010" : "#F1BB37"
+                    },
+                    "showTable": true
+                }
+            ]
+        },
+        "a2" : {
+            "id":"a2",
+            "name_zh" : "按分钟数(主播)计费+按带宽数(观众)计费",
+            "name_en" : "bill by minutes (host broadcaster) + bill by bandwidth (audience)",
+            "info" : [
+                {
+                    "skus" : [1002,2002,2003,2004],
+                    "unit" : "minutes",
+                    "unit_name_zh" : "分钟",
+                    "unit_name_en" : "minutes",
+                    "merge": {
+                        "fromSku": 2002,
+                        "toSku": 2003
+                    },
+                    "items_zh" : {
+                        "1002" : "音频总量",
+                        "2002" : "SD视频总量 <360P",
+                        "2003" : "HD视频总量 ≥360P, ≤ 720",
+                        "2004" : "HD+视频总量 > 720"
+                    },
+                    "items_en" : {
+                        "1002" : "Total Audio Usage",
+                        "2002" : "Total SD Video Resolutions <360P",
+                        "2003" : "Total HD Video Resolutions ≤ 720",
+                        "2004" : "Total HD+ Video Resolutions > 720"
+                    },
+                    "color" : {
+                        "1002" : "#3993FF",
+                        "2002" : "#FF6383",
+                        "2003" : "#4BC0C0",
+                        "2004" : "#F1BB37"
+                    },
+                    "showTable": true
+                },{
+                    "skus" : [2111],
+                    "unit" : "kbps",
+                    "unit_name_zh" : "kbps",
+                    "unit_name_en" : "kbps",
+                    "items_zh" : {
+                        "2111" : "带宽峰值"
+                    },
+                    "items_en" : {
+                        "2111" : "Bandwidth peak"
+                    },
+                    "color" : {
+                        "2111" : "#3993FF"
+                    },
+                    "showTable": false
+                }
+            ]
+        },
+        "a3" : {
+            "id":"a3",
+            "name_zh" : "按带宽数计费(主播+观众)",
+            "name_en" : "billing by bandwidth (host broadcaster) + billing by bandwidth (audience)",
+            "info" : [
+                {
+                    "skus" : [2121],
+                    "unit" : "kbps",
+                    "unit_name_zh" : "kbps",
+                    "unit_name_en" : "kbps",
+                    "items_zh" : {
+                        "2121" : "带宽总量峰值"
+                    },
+                    "items_en" : {
+                        "2121" : "Total Bandwidth Max"
+                    },
+                    "color" : {
+                        "2121" : "#3993FF"
+                    },
+                    "showTable": true
+                }
+            ]
+        },
+        "a4": {
+            "id": "a4",
+            "name_zh": "按分钟数(主播)计费+按分钟数(观众)计费",
+            "name_en": "billing by minutes (host broadcaster) + billing by minutes (audience)",
+            "info": [
+                {
+                    "skus": [1002, 2002, 2003, 2004],
+                    "unit" : "minutes",
+                    "unit_name_zh" : "分钟",
+                    "unit_name_en" : "minutes",
+                    "merge": {
+                        "fromSku": 2002,
+                        "toSku": 2003
+                    },
+                    "name_zh": "主播",
+                    "name_en": "Host",
+                    "items_zh": {
+                        "1002" : "音频总量",
+                        "2002" : "SD视频总量 <360P",
+                        "2003" : "HD视频总量 ≥360P, ≤ 720",
+                        "2004" : "HD+视频总量 > 720"
+                    },
+                    "items_en": {
+                        "1002" : "Total Audio Usage",
+                        "2002" : "Total SD Video Resolutions <360P",
+                        "2003" : "Total HD Video Resolutions ≤ 720",
+                        "2004" : "Total HD+ Video Resolutions > 720"
+                    },
+                    "color": {
+                        "1002" : "#3993FF",
+                        "2002" : "#FF6383",
+                        "2003" : "#4BC0C0",
+                        "2004" : "#F1BB37"
+                    },
+                    "showTable": true
+                },{
+                    "skus" : [1003, 2005, 2006, 2007],
+                    "unit" : "minutes",
+                    "unit_name_zh" : "分钟",
+                    "unit_name_en" : "minutes",
+                    "merge": {
+                        "fromSku": 2005,
+                        "toSku": 2006
+                    },
+                    "name_zh": "观众",
+                    "name_en": "Audience",
+                    "items_zh" : {
+                        "1003": "音频总量",
+                        "2005": "SD视频重量 <360P",
+                        "2006": "HD视频总量 ≥360P, ≤ 720",
+                        "2007": "HD+视频总量 > 720"
+                    },
+                    "items_en" : {
+                        "1003" : "Total Audio Usage",
+                        "2005" : "Total SD Video Resolutions <360P",
+                        "2006" : "Total HD Video Resolutions ≤ 720",
+                        "2007" : "Total HD+ Video Resolutions > 720"
+                    },
+                    "color" : {
+                        "1003" : "#3993FF",
+                        "2005" : "#FF6383",
+                        "2006" : "#4BC0C0",
+                        "2007" : "#F1BB37"
+                    },
+                    "showTable": true
+                }
+            ]
+        }
+    }
+}

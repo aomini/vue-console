@@ -1,0 +1,9 @@
+{
+    "id"        : "4",
+    "name"      : "day",
+    "plural"    : "days",
+    "description": "Day",
+    "description_zh": "天",
+    "base_type" : "second",
+    "base_times": 86400
+}

@@ -1,0 +1,10 @@
+{
+    "id": "6",
+    "name": "taskTagVendorCompanyRegisteredIn7Days",
+    "mode": "in_process",
+    "main": "tasks/tagNewUser/taskTagVendorCompanyRegisteredIn7Days",
+    "cron": "5 * * * *",
+    "triggerAfter": "",
+    "statusReportInterval": 1000,
+    "manual": true
+}

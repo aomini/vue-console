@@ -1,0 +1,8 @@
+{
+  "id": "2",
+  "name": "tracer_user_counter_group_receive",
+  "description_en": "Receive",
+  "counters": [
+    "audio_recv_bitrate"
+  ]
+}

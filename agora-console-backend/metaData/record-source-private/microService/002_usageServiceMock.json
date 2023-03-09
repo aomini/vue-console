@@ -1,0 +1,11 @@
+{
+    "id": "2",
+    "name": "usage_service_mock",
+    "type": "thrift",
+    "thrift_path_service": "thrift/billing/gen-nodejs/UsageService",
+    "thrift_path_ttype": "thrift/billing/gen-nodejs/billing_usage_types",
+    "thrift_host": "localhost",
+    "thrift_port": "9090",
+    "thrift_transport": "TBufferedTransport",
+    "thrift_protocol": "TBinaryProtocol"
+}

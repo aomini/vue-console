@@ -1,0 +1,10 @@
+{
+    "id"          : "3302",
+    "name"        : "peakConcurrentUser",
+    "aggregation" : "MAX",
+    "unit_group"  : "counter",
+    "unit_type"   : "count",
+    "description" : "Peak Concurrent User",
+    "description_zh": "同时在线人数",
+    "children"    : []
+}

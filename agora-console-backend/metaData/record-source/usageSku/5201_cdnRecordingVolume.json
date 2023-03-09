@@ -1,0 +1,9 @@
+{
+    "id"          : "5201",
+    "name"        : "cdnRecordingVolume",
+    "unit_group"  : "volume",
+    "unit_type"   : "MB",
+    "description" : "CDN Recording Volume",
+    "description_zh": "CDN录制容量",
+    "children"    : []
+}

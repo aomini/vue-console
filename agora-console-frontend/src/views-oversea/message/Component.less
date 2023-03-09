@@ -1,0 +1,30 @@
+@border-color-active: #099dfd;
+@message-color-hover: #f1f9ff;
+
+.message-content {
+  background: var(--colorPrimaryIvory);
+  padding: 8px 24px 9px 13px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border: 1px solid #ffff;
+  border-radius: 4px;
+}
+.message-box-title {
+  font-weight: bold;
+  color: #191919;
+}
+.message-box :hover {
+  background: @message-color-hover;
+}
+.message-time {
+  padding-top: 3px;
+}
+.active-message {
+  background: @message-color-hover;
+  border: 1px solid @border-color-active;
+}
+.read-message {
+  color: #8a8a9a;
+  //background: #F9F9FC;
+  font-weight: 400 !important;
+}

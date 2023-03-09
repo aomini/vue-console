@@ -1,0 +1,9 @@
+{
+    "id"        : "9001",
+    "name"      : "unit_type_percent",
+    "plural"    : "%",
+    "base_type" : "unit_type_percent",
+    "description": "Percent",
+    "description_zh": "百分比",
+    "base_times": 1
+}

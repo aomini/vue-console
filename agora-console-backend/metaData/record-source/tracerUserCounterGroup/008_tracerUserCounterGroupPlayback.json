@@ -1,0 +1,8 @@
+{
+  "id": "008",
+  "name": "tracer_user_counter_group_playback",
+  "description_en": "Playback",
+  "counters": [
+    "audio_playback_frequency"
+  ]
+}

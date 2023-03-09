@@ -1,0 +1,10 @@
+{
+    "id"          : "4006",
+    "name"        : "transcodeAudioHostInDuration",
+    "aggregation" : "SUM",
+    "unit_group"  : "duration",
+    "unit_type"   : "second",
+    "description" : "Transcode Duration (Audio Hostin)",
+    "description_zh": "转码时长（音频连麦）",
+    "children"    : []
+}

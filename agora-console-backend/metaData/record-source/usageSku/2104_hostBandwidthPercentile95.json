@@ -1,0 +1,10 @@
+{
+    "id"          : "2104",
+    "name"        : "hostBandwidthPercentile95",
+    "valid_from"  : "2017-06-01",
+    "unit_group"  : "bandwidth",
+    "unit_type"   : "kbps",
+    "description" : "Host Bandwitdh Percentile 95",
+    "description_zh": "主播带宽95峰值",
+    "children"    : []
+}

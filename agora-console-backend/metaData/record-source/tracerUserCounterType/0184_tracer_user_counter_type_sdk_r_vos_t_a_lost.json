@@ -1,0 +1,9 @@
+{
+  "id": "0184",
+  "name": "SDK_R_VOS_T_A_LOSS",
+  "counter_id": 184,
+  "theme": "green",
+  "color": "#1abc9c",
+  "unit_type": "unit_type_percent",
+  "description_en": "Audio Package Receive Loss Rate"
+}
